@@ -27,14 +27,20 @@
 
 #include <EGL/egl.h>
 #include <GLES3/gl3.h>
+#include <jni.h>
+#include <pthread.h>
 #include <unistd.h>
 
 #include "../../third_party/imgui/imgui.h"
 #include "../../third_party/imgui/backends/imgui_impl_opengl3.h"
 
+#include "../runtime/Il2CppRuntime.h"
 #include "../util/Log.h"
+#include "../zygisk_module/Module.h"
 
 namespace overlay::ui {
+
+using overlay::OverlayModule;
 
 namespace {
 
@@ -69,11 +75,72 @@ void update_display_size() {
 
 } // namespace
 
+// JNIEnv attachment guard for the spawned UI thread. The JNIEnv we receive in
+// onLoad lives on the zygote main thread; calling JNI from a different thread
+// without AttachCurrentThread tears down the runtime. We attach lazily here
+// (some configurations don't ever need JNI from the UI thread, in which case
+// the cost is one nullptr check per frame) and detach on thread exit.
+struct JniAttachment {
+    JNIEnv* env = nullptr;
+    bool    attached = false;
+
+    explicit JniAttachment(JavaVM* vm) {
+        if (vm == nullptr) return;
+        // Already attached? GetEnv with the version we used at onLoad.
+        jint rc = vm->GetEnv(reinterpret_cast<void**>(&env), JNI_VERSION_1_6);
+        if (rc == JNI_OK) return;
+        if (rc == JNI_EDETACHED) {
+            JavaVMAttachArgs args{JNI_VERSION_1_6, "ZygiskOverlayUI", nullptr};
+            if (vm->AttachCurrentThread(&env, &args) == JNI_OK) {
+                attached = true;
+                return;
+            }
+        }
+        env = nullptr;
+        log::error("UI thread could not attach to JavaVM (rc=%d)", static_cast<int>(rc));
+    }
+
+    ~JniAttachment() {
+        if (attached) {
+            // Best-effort detach. If the VM is already gone (e.g. process is
+            // tearing down) DetachCurrentThread returns an error that's fine
+            // to ignore.
+            if (auto vm = OverlayModule::GetJavaVM()) {
+                vm->DetachCurrentThread();
+            }
+        }
+    }
+};
+
 void* overlay_thread_main(void*) {
     log::info("overlay UI thread started");
+
+    // Identify ourselves in tombstones / `ps -T` so it's obvious which thread
+    // belongs to the module instead of inheriting whatever name zygote used.
+    pthread_setname_np(pthread_self(), "zygisk-overlay");
+
+    // 1. Attach to the JavaVM so any JNI use later in this thread is legal.
+    JniAttachment jni(OverlayModule::GetJavaVM());
+    (void)jni;
+
+    // 2. Wait for the host app's EGL context to come up.
     if (!wait_for_egl_context()) {
         log::error("EGL context never became current; aborting UI thread");
         return nullptr;
+    }
+
+    // 3. Wait for libil2cpp.so + il2cpp_domain_get() to be valid before we
+    //    let any IL2CPP-aware menu/hook code touch the runtime. On Magisk
+    //    26.4 (Zygisk v4) the module is injected early enough that the
+    //    IL2CPP runtime hasn't finished initialising yet — calling into it
+    //    is what produced the SIGSEGV at libil2cpp.so+0x111b760 / fault
+    //    addr 0x38 (null Il2CppDomain). On Magisk 30+ the timing happens to
+    //    fall outside that window, which is why the same code "worked" on
+    //    30+ but crashed on 26.4. Gating here makes both versions safe.
+    if (!il2cpp::Runtime::Get().WaitForRuntime()) {
+        log::warn("IL2CPP runtime never became ready; UI will still draw, "
+                  "but any il2cpp_* lookups in draw_menu_contents() will be "
+                  "no-ops. Did the host app actually load libil2cpp.so?");
     }
 
     IMGUI_CHECKVERSION();

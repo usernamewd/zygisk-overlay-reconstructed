@@ -27,7 +27,8 @@ LOCAL_MODULE := arm64-v8a
 LOCAL_SRC_FILES := \
     src/zygisk_module/Module.cpp \
     src/hooks/Hooks.cpp \
-    src/ui/Overlay.cpp
+    src/ui/Overlay.cpp \
+    src/runtime/Il2CppRuntime.cpp
 LOCAL_C_INCLUDES := \
     $(LOCAL_PATH)/third_party/zygisk \
     $(LOCAL_PATH)/third_party/Dobby/include \

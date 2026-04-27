@@ -39,9 +39,16 @@ public:
     // pre/postServerSpecialize are intentionally unimplemented; the binary's
     // slots are 4-byte stubs that just `ret`.
 
+    // Java VM captured during onLoad. Used by the spawned overlay UI thread
+    // to AttachCurrentThread before doing any JNI calls (the JNIEnv* received
+    // in onLoad is only valid on the calling thread).
+    static JavaVM* GetJavaVM() { return s_vm_; }
+
 private:
     zygisk::Api* api_  = nullptr;
     JNIEnv*      env_  = nullptr;
+
+    static JavaVM* s_vm_;
 };
 
 } // namespace overlay

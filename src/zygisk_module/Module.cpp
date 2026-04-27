@@ -17,12 +17,20 @@
 
 namespace overlay {
 
+JavaVM* OverlayModule::s_vm_ = nullptr;
+
 // @ 0x57368
 // Recovered: simply stores api & env onto the module instance, exactly as
 // expected for the trivial onLoad implementation in `zygisk-module-sample`.
+//
+// We additionally cache the JavaVM* so the overlay UI thread (spawned in
+// postAppSpecialize) can AttachCurrentThread before making any JNI call.
 void OverlayModule::onLoad(zygisk::Api* api, JNIEnv* env) {
     api_ = api;
     env_ = env;
+    if (env != nullptr) {
+        env->GetJavaVM(&s_vm_);
+    }
 }
 
 // @ 0x57370

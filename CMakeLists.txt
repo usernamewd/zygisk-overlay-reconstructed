@@ -77,6 +77,7 @@ add_library(arm64-v8a SHARED
     src/zygisk_module/Module.cpp
     src/hooks/Hooks.cpp
     src/ui/Overlay.cpp
+    src/runtime/Il2CppRuntime.cpp
 )
 
 target_include_directories(arm64-v8a PRIVATE
