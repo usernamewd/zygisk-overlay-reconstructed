@@ -15,15 +15,11 @@
 // This is the public API for Zygisk modules.
 // DO NOT MODIFY ANY CODE IN THIS HEADER.
 
-// WARNING: this file may contain changes that are not finalized.
-// Always use the following published header for development:
-// https://github.com/topjohnwu/zygisk-module-sample/blob/master/module/jni/zygisk.hpp
-
 #pragma once
 
 #include <jni.h>
 
-#define ZYGISK_API_VERSION 5
+#define ZYGISK_API_VERSION 4
 
 /*
 
@@ -161,7 +157,6 @@ struct AppSpecializeArgs {
     jobjectArray *const whitelisted_data_info_list;
     jboolean *const mount_data_dirs;
     jboolean *const mount_storage_dirs;
-    jboolean *const mount_sysprop_overrides;
 
     AppSpecializeArgs() = delete;
 };
@@ -235,9 +230,6 @@ struct Api {
     // Accessing the directory returned is only possible in the pre[XXX]Specialize methods
     // or in the root companion process (assuming that you sent the fd over the socket).
     // Both restrictions are due to SELinux and UID.
-    //
-    // Module should also make sure zygote is allowed to read module dir (e.g. module dir has
-    // system_file context) due to SELinux restrictions on socket messages.
     //
     // Returns -1 if errors occurred.
     int getModuleDir();

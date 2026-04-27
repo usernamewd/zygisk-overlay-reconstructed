@@ -12,10 +12,11 @@
 //   vtable[4] = postServerSpecialize(...)            file off 0x57460 (empty)
 //
 // `zygisk_module_entry` (file off 0x56984) constructs a `module_abi` with
-// api_version=4 (matching ZYGISK_API_VERSION 4 from Magisk v26.x; the resulting
-// .so still loads under newer Magisk versions because v5+ remains backward
-// compatible with v4 modules). Then it calls api->registerModule(...) and, on
-// success, dispatches `onLoad`.
+// api_version=4 (matching ZYGISK_API_VERSION 4 from Magisk v26.x). Then it
+// calls api->registerModule(...) and, on success, dispatches `onLoad`. The
+// vendored zygisk.hpp under third_party/zygisk/ is the v4 module-API header
+// from topjohnwu/zygisk-module-sample, so this builds against Magisk 26.4
+// out of the box.
 
 #pragma once
 

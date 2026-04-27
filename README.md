@@ -11,7 +11,7 @@ Android process. Confirmed from the binary itself:
 
 | Component | Evidence |
 |-----------|----------|
-| Zygisk module API v4 | `zygisk_module_entry` export, `api_version=4` literal in entry stub at file off `0x56984` |
+| Zygisk module API v4 (Magisk 26.x) | `zygisk_module_entry` export, `api_version=4` literal in entry stub at file off `0x56984`. The vendored module-API header under `third_party/zygisk/zygisk.hpp` is the v4 release from `topjohnwu/zygisk-module-sample`. |
 | Dear ImGui **1.92.2** | string `Dear ImGui 1.92.2 (19220)` in `.rodata` |
 | `imgui_impl_opengl3` backend | string `imgui_impl_opengl3`, `#version 300 es`, full `ImGui_ImplOpenGL3_*` symbols |
 | Dobby (jmpews/Dobby) | `DobbyHook`, `CodePatch`, `FunctionInlineReplaceRouting`, `ARM64InstructionRelocation`, `MemoryArena`, all source-path strings `/Users/runner/work/Dobby/Dobby/...` |
@@ -34,7 +34,8 @@ src/
 third_party/
   imgui/                         # vendored as submodule, pinned to v1.92.2
   Dobby/                         # vendored as submodule (master)
-  zygisk/zygisk.hpp              # Magisk's public Zygisk module header
+  zygisk/zygisk.hpp              # Zygisk module API v4 header (Magisk 26.x)
+  dobby_stub/dobby.h             # header-only no-op Dobby (CI default)
 
 reverse_engineering/
   original_arm64-v8a.so          # the input artifact, untouched
