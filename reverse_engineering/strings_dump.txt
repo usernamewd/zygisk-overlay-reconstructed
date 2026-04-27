@@ -1,0 +1,4753 @@
+__cxa_finalize
+__register_atfork
+__cxa_atexit
+DobbyHook
+_ZNSt6__ndk112__next_primeEm
+__cxa_guard_acquire
+__cxa_guard_release
+__stack_chk_fail
+basename
+eglQuerySurface
+pthread_create
+pthread_self
+zygisk_module_entry
+vsnprintf
+glActiveTexture
+glAttachShader
+glBindBuffer
+glBindSampler
+glBindTexture
+glBindVertexArray
+glBlendEquation
+glBlendEquationSeparate
+glBlendFuncSeparate
+glBufferData
+glBufferSubData
+glCompileShader
+glCreateProgram
+glCreateShader
+glDeleteShader
+glDeleteVertexArrays
+glDetachShader
+glDisable
+glDrawElements
+glEnable
+glEnableVertexAttribArray
+glGenBuffers
+glGenTextures
+glGenVertexArrays
+glGetAttribLocation
+glGetIntegerv
+glGetProgramInfoLog
+glGetProgramiv
+glGetShaderInfoLog
+glGetShaderiv
+glGetString
+glGetUniformLocation
+glIsEnabled
+glIsProgram
+glLinkProgram
+glPixelStorei
+glScissor
+glShaderSource
+glTexImage2D
+glTexParameteri
+glUniform1i
+glUniformMatrix4fv
+glUseProgram
+glVertexAttribPointer
+glViewport
+__android_log_print
+__system_property_get
+log_internal_impl
+__android_log_vprint
+log_set_level
+log_switch_to_file
+log_switch_to_syslog
+CodePatch
+_ZTVN10__cxxabiv117__class_type_infoE
+__cxa_pure_virtual
+_ZSt9terminatev
+_ZTVN10__cxxabiv120__si_class_type_infoE
+__cxa_begin_catch
+__gxx_personality_v0
+mprotect
+_ZTVN10__cxxabiv121__vmi_class_type_infoE
+_ZNSt11logic_errorC2EPKc
+_ZNSt12length_errorD1Ev
+_ZTISt12length_error
+_ZTVSt12length_error
+__cxa_allocate_exception
+__cxa_free_exception
+__cxa_throw
+vfprintf
+_ZNSt13runtime_errorC2EPKc
+_ZNSt14overflow_errorD1Ev
+_ZTISt14overflow_error
+_ZTVSt14overflow_error
+_ZNSt11logic_errorC1EPKc
+_ZNSt11logic_errorC1ERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
+_ZNSt11logic_errorC1ERKS_
+_ZNSt11logic_errorC2ERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
+_ZNSt11logic_errorC2ERKS_
+_ZNSt11logic_erroraSERKS_
+_ZNSt13runtime_errorC1EPKc
+_ZNSt13runtime_errorC1ERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
+_ZNSt13runtime_errorC1ERKS_
+_ZNSt13runtime_errorC2ERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
+_ZNSt13runtime_errorC2ERKS_
+_ZNSt13runtime_erroraSERKS_
+_ZNSt9exceptionD2Ev
+_ZTVSt11logic_error
+_ZTVSt13runtime_error
+_ZSt13get_terminatev
+_ZSt14get_unexpectedv
+__cxa_allocate_dependent_exception
+__cxa_call_unexpected
+__cxa_current_exception_type
+__cxa_current_primary_exception
+__cxa_decrement_exception_refcount
+__cxa_end_catch
+__cxa_free_dependent_exception
+__cxa_get_exception_ptr
+__cxa_get_globals
+__cxa_get_globals_fast
+__cxa_increment_exception_refcount
+__cxa_rethrow
+__cxa_rethrow_primary_exception
+__cxa_uncaught_exception
+__cxa_uncaught_exceptions
+pthread_getspecific
+pthread_key_create
+pthread_once
+pthread_setspecific
+__cxa_guard_abort
+pthread_cond_broadcast
+pthread_cond_wait
+pthread_mutex_lock
+pthread_mutex_unlock
+_ZSt10unexpectedv
+_ZSt15get_new_handlerv
+_ZSt15set_new_handlerPFvvE
+__cxa_new_handler
+__cxa_terminate_handler
+__cxa_unexpected_handler
+_ZNSt13bad_exceptionD1Ev
+_ZTISt13bad_exception
+_ZTVSt13bad_exception
+__cxa_deleted_virtual
+posix_memalign
+_ZNSt9type_infoD2Ev
+_ZTIN10__cxxabiv116__enum_type_infoE
+_ZTIN10__cxxabiv116__shim_type_infoE
+_ZTIN10__cxxabiv117__array_type_infoE
+_ZTIN10__cxxabiv117__class_type_infoE
+_ZTIN10__cxxabiv117__pbase_type_infoE
+_ZTIN10__cxxabiv119__pointer_type_infoE
+_ZTIN10__cxxabiv120__function_type_infoE
+_ZTIN10__cxxabiv120__si_class_type_infoE
+_ZTIN10__cxxabiv121__vmi_class_type_infoE
+_ZTIN10__cxxabiv123__fundamental_type_infoE
+_ZTIN10__cxxabiv129__pointer_to_member_type_infoE
+_ZTIPKDh
+_ZTIPKDi
+_ZTIPKDn
+_ZTIPKDs
+_ZTISt9type_info
+_ZTSN10__cxxabiv116__enum_type_infoE
+_ZTSN10__cxxabiv116__shim_type_infoE
+_ZTSN10__cxxabiv117__array_type_infoE
+_ZTSN10__cxxabiv117__class_type_infoE
+_ZTSN10__cxxabiv117__pbase_type_infoE
+_ZTSN10__cxxabiv119__pointer_type_infoE
+_ZTSN10__cxxabiv120__function_type_infoE
+_ZTSN10__cxxabiv120__si_class_type_infoE
+_ZTSN10__cxxabiv121__vmi_class_type_infoE
+_ZTSN10__cxxabiv123__fundamental_type_infoE
+_ZTSN10__cxxabiv129__pointer_to_member_type_infoE
+_ZTSPKDh
+_ZTSPKDi
+_ZTSPKDn
+_ZTSPKDs
+_ZTVN10__cxxabiv116__enum_type_infoE
+_ZTVN10__cxxabiv116__shim_type_infoE
+_ZTVN10__cxxabiv117__array_type_infoE
+_ZTVN10__cxxabiv117__pbase_type_infoE
+_ZTVN10__cxxabiv119__pointer_type_infoE
+_ZTVN10__cxxabiv120__function_type_infoE
+_ZTVN10__cxxabiv123__fundamental_type_infoE
+_ZTVN10__cxxabiv129__pointer_to_member_type_infoE
+__dynamic_cast
+_ZNKSt13bad_exception4whatEv
+_ZNKSt16bad_array_length4whatEv
+_ZNKSt20bad_array_new_length4whatEv
+_ZNKSt9bad_alloc4whatEv
+_ZNKSt9exception4whatEv
+_ZNSt13bad_exceptionD0Ev
+_ZNSt13bad_exceptionD2Ev
+_ZNSt16bad_array_lengthC1Ev
+_ZNSt16bad_array_lengthC2Ev
+_ZNSt16bad_array_lengthD0Ev
+_ZNSt16bad_array_lengthD1Ev
+_ZNSt16bad_array_lengthD2Ev
+_ZNSt20bad_array_new_lengthC1Ev
+_ZNSt20bad_array_new_lengthC2Ev
+_ZNSt20bad_array_new_lengthD0Ev
+_ZNSt20bad_array_new_lengthD1Ev
+_ZNSt20bad_array_new_lengthD2Ev
+_ZNSt9bad_allocC1Ev
+_ZNSt9bad_allocC2Ev
+_ZNSt9bad_allocD0Ev
+_ZNSt9bad_allocD1Ev
+_ZNSt9bad_allocD2Ev
+_ZNSt9exceptionD0Ev
+_ZNSt9exceptionD1Ev
+_ZTISt16bad_array_length
+_ZTISt20bad_array_new_length
+_ZTISt9bad_alloc
+_ZTISt9exception
+_ZTSSt13bad_exception
+_ZTSSt16bad_array_length
+_ZTSSt20bad_array_new_length
+_ZTSSt9bad_alloc
+_ZTSSt9exception
+_ZTVSt16bad_array_length
+_ZTVSt20bad_array_new_length
+_ZTVSt9bad_alloc
+_ZTVSt9exception
+_ZdaPvRKSt9nothrow_t
+_ZdaPvSt11align_val_t
+_ZdaPvSt11align_val_tRKSt9nothrow_t
+_ZdaPvmSt11align_val_t
+_ZdlPvRKSt9nothrow_t
+_ZdlPvSt11align_val_t
+_ZdlPvSt11align_val_tRKSt9nothrow_t
+_ZdlPvmSt11align_val_t
+_ZnamRKSt9nothrow_t
+_ZnamSt11align_val_t
+_ZnamSt11align_val_tRKSt9nothrow_t
+_ZnwmRKSt9nothrow_t
+_ZnwmSt11align_val_t
+_ZnwmSt11align_val_tRKSt9nothrow_t
+_ZNKSt11logic_error4whatEv
+_ZNKSt13runtime_error4whatEv
+_ZNSt11logic_errorD0Ev
+_ZNSt11logic_errorD1Ev
+_ZNSt11logic_errorD2Ev
+_ZNSt11range_errorD0Ev
+_ZNSt11range_errorD1Ev
+_ZNSt11range_errorD2Ev
+_ZNSt12domain_errorD0Ev
+_ZNSt12domain_errorD1Ev
+_ZNSt12domain_errorD2Ev
+_ZNSt12length_errorD0Ev
+_ZNSt12length_errorD2Ev
+_ZNSt12out_of_rangeD0Ev
+_ZNSt12out_of_rangeD1Ev
+_ZNSt12out_of_rangeD2Ev
+_ZNSt13runtime_errorD0Ev
+_ZNSt13runtime_errorD1Ev
+_ZNSt13runtime_errorD2Ev
+_ZNSt14overflow_errorD0Ev
+_ZNSt14overflow_errorD2Ev
+_ZNSt15underflow_errorD0Ev
+_ZNSt15underflow_errorD1Ev
+_ZNSt15underflow_errorD2Ev
+_ZNSt16invalid_argumentD0Ev
+_ZNSt16invalid_argumentD1Ev
+_ZNSt16invalid_argumentD2Ev
+_ZTISt11logic_error
+_ZTISt11range_error
+_ZTISt12domain_error
+_ZTISt12out_of_range
+_ZTISt13runtime_error
+_ZTISt15underflow_error
+_ZTISt16invalid_argument
+_ZTSSt11logic_error
+_ZTSSt11range_error
+_ZTSSt12domain_error
+_ZTSSt12length_error
+_ZTSSt12out_of_range
+_ZTSSt13runtime_error
+_ZTSSt14overflow_error
+_ZTSSt15underflow_error
+_ZTSSt16invalid_argument
+_ZTVSt11range_error
+_ZTVSt12domain_error
+_ZTVSt12out_of_range
+_ZTVSt15underflow_error
+_ZTVSt16invalid_argument
+_ZNKSt10bad_typeid4whatEv
+_ZNKSt8bad_cast4whatEv
+_ZNSt10bad_typeidC1Ev
+_ZNSt10bad_typeidC2Ev
+_ZNSt10bad_typeidD0Ev
+_ZNSt10bad_typeidD1Ev
+_ZNSt10bad_typeidD2Ev
+_ZNSt8bad_castC1Ev
+_ZNSt8bad_castC2Ev
+_ZNSt8bad_castD0Ev
+_ZNSt8bad_castD1Ev
+_ZNSt8bad_castD2Ev
+_ZNSt9type_infoD0Ev
+_ZNSt9type_infoD1Ev
+_ZTISt10bad_typeid
+_ZTISt8bad_cast
+_ZTSSt10bad_typeid
+_ZTSSt8bad_cast
+_ZTSSt9type_info
+_ZTVSt10bad_typeid
+_ZTVSt8bad_cast
+_ZTVSt9type_info
+android_set_abort_message
+closelog
+vasprintf
+_ZSt13set_terminatePFvvE
+_ZSt14set_unexpectedPFvvE
+__cxa_demangle
+isxdigit
+dl_iterate_phdr
+liblog.so
+libandroid.so
+libEGL.so
+libGLESv2.so
+libGLESv3.so
+libdl.so
+__bss_start
+__bss_start__
+__bss_end__
+libarm64-v8a.so
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+2"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+T"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+9"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+bJ=%!J=c
+T#!J9DaR9
+T$!J9EaR9
+9"!J9CaR9c
+T#!J9DaR9
+T$!J9EaR9
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+2"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+T"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+9"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+bJ=%!J=c
+T#!J9DaR9
+T$!J9EaR9
+9"!J9CaR9c
+T#!J9DaR9
+T$!J9EaR9
+2"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+T"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+bJ=%!J=c
+T#!J9DaR9
+T$!J9EaR9
+"!J9CaR9c
+T#!J9DaR9
+T$!J9EaR9
+2"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+T"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+bJ=%!J=c
+T#!J9DaR9
+T$!J9EaR9
+"!J9CaR9c
+T#!J9DaR9
+T$!J9EaR9
+2"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+T"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+bJ=%!J=c
+T#!J9DaR9
+T$!J9EaR9
+"!J9CaR9c
+T#!J9DaR9
+T$!J9EaR9
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9#aR9b
+!J9"aR9B
+!J9#aR9b
+2"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+T"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+bJ=%!J=c
+T#!J9DaR9
+T$!J9EaR9
+"!J9CaR9c
+T#!J9DaR9
+T$!J9EaR9
+2"!J9caR9b
+$bJ=%!J=
+T#!J9daR9
+$bJ=%!J=
+T$!J9eaR9
+T"!J9caR9b
+$bJ=%!J=
+T#!J9daR9
+$bJ=%!J=
+T$!J9eaR9
+"!J9caR9b
+$bJ=%!J=
+T#!J9daR9
+$bJ=%!J=
+T$!J9eaR9
+$bJ=%!J=c
+T#!J9daR9
+$bJ=%!J=
+T$!J9eaR9
+"!J9caR9c
+$bJ=%!J=
+T#!J9daR9
+$bJ=%!J=
+T$!J9eaR9
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+2B!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+TB!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+B!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+$bJ=E!J=c
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+B!J9caR9c
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+2B!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+TB!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+B!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+$bJ=E!J=c
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+B!J9caR9c
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+2"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+T"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+bJ=%!J=c
+T#!J9DaR9
+T$!J9EaR9
+"!J9CaR9c
+T#!J9DaR9
+T$!J9EaR9
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+2!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+T!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+bJ=%!J=B
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9B
+T"!J9CaR9b
+T#!J9DaR9
+2!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+T!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+bJ=%!J=B
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9B
+T"!J9CaR9b
+T#!J9DaR9
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+2!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+T!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+bJ=%!J=B
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9B
+T"!J9CaR9b
+T#!J9DaR9
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+2!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+T!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+bJ=%!J=B
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9B
+T"!J9CaR9b
+T#!J9DaR9
+2"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+T"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+bJ=%!J=c
+T#!J9DaR9
+T$!J9EaR9
+"!J9CaR9c
+T#!J9DaR9
+T$!J9EaR9
+2"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+T"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+bJ=%!J=c
+T#!J9DaR9
+T$!J9EaR9
+"!J9CaR9c
+T#!J9DaR9
+T$!J9EaR9
+2!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+T!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+bJ=%!J=B
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9B
+T"!J9CaR9b
+T#!J9DaR9
+2!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+T!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+bJ=%!J=B
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9B
+T"!J9CaR9b
+T#!J9DaR9
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+2"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+T"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+bJ=%!J=c
+T#!J9DaR9
+T$!J9EaR9
+"!J9CaR9c
+T#!J9DaR9
+T$!J9EaR9
+2"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+T"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+bJ=%!J=c
+T#!J9DaR9
+T$!J9EaR9
+"!J9CaR9c
+T#!J9DaR9
+T$!J9EaR9
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9#aR9b
+!J9"aR9B
+!J9#aR9b
+2"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+T"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+bJ=%!J=c 
+T#!J9DaR9
+T$!J9EaR9
+"!J9CaR9c
+T#!J9DaR9
+T$!J9EaR9
+2"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+T"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+bJ=%!J=c 
+T#!J9DaR9
+T$!J9EaR9
+"!J9CaR9c
+T#!J9DaR9
+T$!J9EaR9
+2!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+T!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+bJ=%!J=B 
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9B
+T"!J9CaR9b
+T#!J9DaR9
+2"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+T"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+bJ=%!J=c$
+T#!J9DaR9
+T$!J9EaR9
+"!J9CaR9c
+T#!J9DaR9
+T$!J9EaR9
+2"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+T"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+bJ=%!J=c$
+T#!J9DaR9
+T$!J9EaR9
+"!J9CaR9c
+T#!J9DaR9
+T$!J9EaR9
+2!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+T!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+bJ=%!J=B$
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9B
+T"!J9CaR9b
+T#!J9DaR9
+2B!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+TB!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+B!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+$bJ=E!J=c(
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+B!J9caR9c
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+2!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+T!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+bJ=%!J=B(
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9B
+T"!J9CaR9b
+T#!J9DaR9
+2B!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+TB!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+B!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+$bJ=E!J=c,
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+B!J9caR9c
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+2!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+T!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+bJ=%!J=B,
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9B
+T"!J9CaR9b
+T#!J9DaR9
+2B!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+TB!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+B!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+$bJ=E!J=c0
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+B!J9caR9c
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+2!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+T!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+bJ=%!J=B0
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9B
+T"!J9CaR9b
+T#!J9DaR9
+2!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+T!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+bJ=%!J=B4
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9B
+T"!J9CaR9b
+T#!J9DaR9
+2B!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+TB!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+B!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+$bJ=E!J=c4
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+B!J9caR9c
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+2B!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+TB!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+B!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+$bJ=E!J=c8
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+B!J9caR9c
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+2!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+T!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+bJ=%!J=B8
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9B
+T"!J9CaR9b
+T#!J9DaR9
+2B!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+TB!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+B!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+$bJ=E!J=c<
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+B!J9caR9c
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+2!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+T!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+bJ=%!J=B<
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9B
+T"!J9CaR9b
+T#!J9DaR9
+2B!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+TB!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+B!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+$bJ=E!J=c@
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+B!J9caR9c
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+2!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+T!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+bJ=%!J=B@
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9B
+T"!J9CaR9b
+T#!J9DaR9
+2B!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+TB!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+B!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+$bJ=E!J=c@
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+B!J9caR9c
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+2!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+T!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+bJ=%!J=BD
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9B
+T"!J9CaR9b
+T#!J9DaR9
+2B!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+TB!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+B!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+$bJ=E!J=cD
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+B!J9caR9c
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+2"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+T"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+bJ=%!J=cH
+T#!J9DaR9
+T$!J9EaR9
+"!J9CaR9c
+T#!J9DaR9
+T$!J9EaR9
+2"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+T"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+bJ=%!J=cH
+T#!J9DaR9
+T$!J9EaR9
+"!J9CaR9c
+T#!J9DaR9
+T$!J9EaR9
+2!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+T!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+bJ=%!J=BH
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9B
+T"!J9CaR9b
+T#!J9DaR9
+2!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+T!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+bJ=%!J=BL
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9B
+T"!J9CaR9b
+T#!J9DaR9
+2B!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+TB!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+B!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+$bJ=E!J=cL
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+B!J9caR9c
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+2"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+T"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+bJ=%!J=cL
+T#!J9DaR9
+T$!J9EaR9
+"!J9CaR9c
+T#!J9DaR9
+T$!J9EaR9
+2"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+T"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+"!J9CaR9b
+T#!J9DaR9
+T$!J9EaR9
+bJ=%!J=cP
+T#!J9DaR9
+T$!J9EaR9
+"!J9CaR9c
+T#!J9DaR9
+T$!J9EaR9
+2!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+T!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+bJ=%!J=BP
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9B
+T"!J9CaR9b
+T#!J9DaR9
+2!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+T!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+bJ=%!J=BT
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9B
+T"!J9CaR9b
+T#!J9DaR9
+2B!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+TB!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+B!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+$bJ=E!J=cT
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+B!J9caR9c
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9#aR9b
+!J9"aR9B
+!J9#aR9b
+2C!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+$bJ=E!J=
+TE!J9faR9
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+$bJ=E!J=
+TE!J9faR9
+C!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+$bJ=E!J=
+TE!J9faR9
+$bJ=E!J=
+TD!J9eaR9
+$bJ=E!J=
+TE!J9faR9
+C!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+$bJ=E!J=
+TE!J9faR9
+2!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+T!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+bJ=%!J=BX
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9B
+T"!J9CaR9b
+T#!J9DaR9
+2!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+T!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+bJ=%!J=BX
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9B
+T"!J9CaR9b
+T#!J9DaR9
+2!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+T!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+bJ=%!J=B`
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9B
+T"!J9CaR9b
+T#!J9DaR9
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+2B!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+TB!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+B!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+$bJ=E!J=cd
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+B!J9caR9c
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+2"!J9caR9b
+$bJ=%!J=
+T#!J9daR9
+$bJ=%!J=
+T$!J9eaR9
+T"!J9caR9b
+$bJ=%!J=
+T#!J9daR9
+$bJ=%!J=
+T$!J9eaR9
+"!J9caR9b
+$bJ=%!J=
+T#!J9daR9
+$bJ=%!J=
+T$!J9eaR9
+$bJ=%!J=ch
+T#!J9daR9
+$bJ=%!J=
+T$!J9eaR9
+"!J9caR9c
+$bJ=%!J=
+T#!J9daR9
+$bJ=%!J=
+T$!J9eaR9
+2"!J9caR9b
+$bJ=%!J=
+T#!J9daR9
+$bJ=%!J=
+T$!J9eaR9
+T"!J9caR9b
+$bJ=%!J=
+T#!J9daR9
+$bJ=%!J=
+T$!J9eaR9
+"!J9caR9b
+$bJ=%!J=
+T#!J9daR9
+$bJ=%!J=
+T$!J9eaR9
+$bJ=%!J=ch
+T#!J9daR9
+$bJ=%!J=
+T$!J9eaR9
+"!J9caR9c
+$bJ=%!J=
+T#!J9daR9
+$bJ=%!J=
+T$!J9eaR9
+2B!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+TB!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+B!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+$bJ=E!J=ch
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+B!J9caR9c
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+2B!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+TB!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+B!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+$bJ=E!J=cl
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+B!J9caR9c
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+DbJ=e!J=
+2!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+T!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+bJ=%!J=Bl
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9B
+T"!J9CaR9b
+T#!J9DaR9
+2B!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+TB!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+B!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+$bJ=E!J=cp
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+B!J9caR9c
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+2!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+T!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+bJ=%!J=Bp
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9B
+T"!J9CaR9b
+T#!J9DaR9
+2B!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+TB!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+B!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+$bJ=E!J=ct
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+B!J9caR9c
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+2!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+T!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+bJ=%!J=Bt
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9B
+T"!J9CaR9b
+T#!J9DaR9
+2!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+T!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+bJ=%!J=Bt
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9B
+T"!J9CaR9b
+T#!J9DaR9
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+2!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+T!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+bJ=%!J=B
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9B
+T"!J9CaR9b
+T#!J9DaR9
+2B!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+TB!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+B!J9caR9b
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+$bJ=E!J=c
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+B!J9caR9c
+$bJ=E!J=
+TC!J9daR9
+$bJ=E!J=
+TD!J9eaR9
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+2!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+T!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+bJ=%!J=B
+T"!J9CaR9b
+T#!J9DaR9
+!!J9BaR9B
+T"!J9CaR9b
+T#!J9DaR9
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9!aR9 
+!J9"aR9A
+!J9#aR9b
+!J9"aR9A
+!J9#aR9b
+!J9!aR9!
+!J9"aR9A
+!J9#aR9b
+CJ9+SJ9)
+CJ9+SJ9)
+CJ9-SJ9k
+CJ9,SJ9J
+2J9	CJ9*SJ9
+CJ9+SJ9)
+CJ9+SJ9)
+CJ9-SJ9k
+CJ9,SJ9J
+CJ9+SJ9)
+CJ9+SJ9)
+CJ9-SJ9k
+CJ9,SJ9J
+2J9	CJ9*SJ9
+CJ9+SJ9)
+CJ9+SJ9)
+CJ9-SJ9k
+CJ9,SJ9J
+CJ9+SJ9)
+CJ9+SJ9)
+CJ9-SJ9k
+CJ9,SJ9J
+CJ9 SJ91
+CJ9 SJ91
+CJ9 SJ91
+CJ9 SJ91
+CJ9 SJ91
+*yhxjz(x
+2!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+T!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+9!!J9BaR9A
+T"!J9CaR9b
+T#!J9DaR9
+bJ=%!J=B
+T"!J9CaR9b
+T#!J9DaR9
+9!!J9BaR9B
+T"!J9CaR9b
+T#!J9DaR9
+=wj+8hfA9	@
+R	i*8hR@9
+hBu9iFu9h
+i/8	im8.
+R	i*8H#a
+Q	i9x	1_
+i)x	ij8*
+Nh&T) ! 
+($@)J,@)
+iv@ylr@y
+	Kjj@yi~
+,A)	!U)_
+-i*J)J) 
+R(kh8A8!
+RIi+xI%J
+ijt8jht8?
+)ih8	h(8
+R(i*x(%J
+H->)L%?)h
+l5>)n=?)
+l5>)n=?)
+j1>)m9?)
+j1>)m9?)*
+q 	Az@	Az`
+4z2A9j6A9
+d@ffffff
+@333333 @
+%lX-%*lX%*s %*s %*s %*s %s
+android/widget/Toast
+makeText
+(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
+android/app/ActivityThread
+currentActivityThread
+()Landroid/app/ActivityThread;
+getApplication
+()Landroid/app/Application;
+il2cpp_base: 0x%llX
+imgui.ini
+imgui_log.txt
+[io] Super+Left Click aliased into Right Click
+Clipper: Begin(%d,%.2f) in '%s'
+Clipper: End() in '%s'
+Clipper: Step(): inside frozen table row.
+Clipper: Step(): computed ItemsHeight: %.2f.
+Clipper: Step(): display %d to %d.
+Clipper: Step(): End.
+Calling PopStyleColor() too many times!
+Calling PushStyleVar() variant with wrong type!
+Calling PopStyleVar() too many times!
+TextDisabled
+WindowBg
+BorderShadow
+FrameBgHovered
+FrameBgActive
+TitleBgActive
+TitleBgCollapsed
+MenuBarBg
+ScrollbarBg
+ScrollbarGrab
+ScrollbarGrabHovered
+ScrollbarGrabActive
+CheckMark
+SliderGrab
+SliderGrabActive
+ButtonHovered
+ButtonActive
+HeaderHovered
+HeaderActive
+Separator
+SeparatorHovered
+SeparatorActive
+ResizeGrip
+ResizeGripHovered
+ResizeGripActive
+InputTextCursor
+TabHovered
+TabSelected
+TabSelectedOverline
+TabDimmed
+TabDimmedSelected
+TabDimmedSelectedOverline
+PlotLines
+PlotLinesHovered
+PlotHistogram
+PlotHistogramHovered
+TableHeaderBg
+TableBorderStrong
+TableBorderLight
+TableRowBg
+TableRowBgAlt
+TextLink
+TextSelectedBg
+TreeLines
+DragDropTarget
+NavCursor
+NavWindowingHighlight
+NavWindowingDimBg
+ModalWindowDimBg
+Forgot to shutdown Platform backend?
+Forgot to shutdown Renderer backend?
+SetActiveID() cancel MovingWindow
+SetActiveID() old:0x%08X (window "%s") -> new:0x%08X (window "%s")
+Invalid flags for IsItemHovered()!
+##Background
+##Foreground
+NewFrame(): ClearActiveID() because it isn't marked alive anymore!
+(Debug Log: Auto-disabled some ImGuiDebugLogFlags after 2 frames)
+Debug##Default
+Forgot to call ImGui::NewFrame()?
+[io] Calling Platform_SetImeDataFn(): WantVisible: %d, InputPos (%.2f,%.2f)
+%s/%s_%08X
+Calling End() too many times!
+Must call EndChild() and not End()!
+Calling PopItemFlag() too many times!
+Calling EndDisabled() too many times!
+Calling PopTextWrapPos() too many times!
+Invalid flags for IsWindowHovered()!
+Calling PopFocusScope() too many times!
+FocusItem(0x%08x) in window "%s"
+FocusItem() ignored while DragDropActive!
+SetKeyboardFocusHere(%d) in window "%s"
+SetKeyboardFocusHere() ignored while DragDropActive!
+Calling PopFont() too many times!
+Calling PopID() too many times!
+%s%s%s%s%s
+SetShortcutRouting(%s, flags=%04X, owner_id=0x%08X) -> always, no register
+SetShortcutRouting(%s, flags=%04X, owner_id=0x%08X) -> filtered as potential char input
+SetShortcutRouting(%s, flags=%04X, owner_id=0x%08X) -> score %d
+--> granting current route
+Processed
+Remaining
+Code uses SetCursorPos()/SetCursorScreenPos() to extend window/parent boundaries.
+Please submit an item e.g. Dummy() afterwards in order to grow window/parent boundaries.
+Missing EndTable()
+Missing EndChild()
+Missing End()
+Missing EndTabBar()
+Missing EndMultiSelect()
+Missing EndMenuBar()
+Missing TreePop()
+Missing EndGroup()
+Missing PopID()
+Missing EndDisabled()
+Missing PopStyleColor()
+Missing PopItemFlag()
+Missing PopStyleVar()
+Missing PopFont()
+Missing PopFocusScope()
+[imgui-error] (current settings: Assert=%d, Log=%d, Tooltip=%d)
+[imgui-error] In window '%s': %s
+In window '%s': %s
+(and more errors)
+Programmer error: %d visible items with conflicting ID!
+Code should use PushID()/PopID() in loops, or append "##xx" to same-label identifiers!
+Empty label e.g. Button("") == same ID as parent widget/node. Use Button("##xx") instead!
+Set io.ConfigDebugHighlightIdConflicts=false to disable this warning in non-programmers builds.
+(Hold CTRL to: use 
+ to break in item call-stack, or 
+(Hold CTRL to 
+Open FAQ->About ID Stack System
+https://github.com/ocornut/imgui/blob/master/docs/FAQ.md#qa-usage
+(Hold CTRL to:
+Enable Asserts
+##Tooltip_Error
+MESSAGE FROM DEAR IMGUI
+Calling PopItemWidth() too many times!
+##Tooltip_DragDrop_%02d
+##Tooltip_%02d
+[popup] OpenPopup("%s" -> 0x%08X)
+[popup] OpenPopupEx(0x%08X)
+[popup] ClosePopupsOverWindow("%s")
+[popup] ClosePopupToLevel(%d), restore_under=%d
+[popup] - Closing PopupID 0x%08X Window "%s"
+[popup] CloseCurrentPopup %d -> %d
+##Popup_%08x
+%s###Menu_%02d
+Calling EndPopup() too many times or in wrong window!
+window_context
+void_context
+[focus] FocusWindow("%s", UnlessBelowModal): prevented by "%s".
+[focus] SetNavWindow("%s")
+[nav] NavInitRequest: from NavInitWindow(), init_for_nav=%d, window="%s", layer=%d
+[nav] NavInitRequest: ApplyResult: NavID 0x%08X in Layer %d Window "%s"
+[nav] NavMoveSubmitted but not led to a result!
+[focus] NavMoveRequest: SetNavWindow("%s")
+[nav] NavMoveRequest: result NavID 0x%08X in Layer %d Window "%s"
+[dragdrop] ClearDragDrop()
+##Tooltip_Hidden
+#SourceExtern
+[dragdrop] BeginDragDropSource() DragDropActive = true, source_id = 0x%08X%s
+ (EXTERN)
+[dragdrop] AcceptDragDropPayload(): 0x%08X: payload delivery
+LogButtons
+Log To TTY
+Log To File
+Log To Clipboard
+Default Depth
+Text: "%s"
+##DebugTextEncoding
+Codepoint
+[missing]
+io.BackendFlags: RendererHasTextures
+FontSizeBase
+ (out %.2f)
+- This is scaling font only. General scaling will come later.
+FontScaleMain
+FontScaleDpi
+Warning: Font scaling will NOT be smooth, because
+ImGuiBackendFlags_RendererHasTextures is not set!
+For instructions, see:
+https://github.com/ocornut/imgui/blob/master/docs/BACKENDS.md
+Load a nice font for better results!
+Please submit feedback:
+https://github.com/ocornut/imgui/issues/8465
+Read FAQ for more details:
+dearimgui.com/faq
+https://www.dearimgui.com/faq/
+Font List
+Show font preview
+Loader: '%s'
+stb_truetype
+FreeType
+Requires #define IMGUI_ENABLE_FREETYPE + imgui_freetype.cpp.
+Font Atlas
+Clear All
+Destroy cache and custom rectangles.
+Tex: %dx%d
+Packed rects: %d, area: about %d px ~%dx%d px
+incl. Discarded rects: %d, area: about %d px ~%dx%d px
+Rects Index
+Rects Index (%d)
+ID:%08X, used:%d, { w:%3d, h:%3d } { x:%4d, y:%4d }
+Texture #%03d (%dx%d pixels)
+Show used rect
+Status = %s (%d), Format = %s (%d), UseColors = %d
+TexID = %s, BackendUserData = %p
+Dear ImGui Metrics/Debugger
+Dear ImGui %s (%d)
+(Context Name: "%s")
+Application average %.3f ms/frame (%.1f FPS)
+%d vertices, %d indices (%d triangles)
+%d visible windows, %d current allocations
+OuterRect
+OuterRectClipped
+InnerRect
+InnerClipRect
+ContentIdeal
+ContentRegionRect
+HostClipRect
+BackgroundClipRect
+ColumnsRect
+ColumnsWorkRect
+ColumnsClipRect
+ColumnsContentHeadersUsed
+ColumnsContentHeadersIdeal
+ColumnsContentFrozen
+ColumnsContentUnfrozen
+Debug breaks
+Will call the IM_DEBUG_BREAK() macro to break in debugger.
+Warning: If you don't have a debugger attached, this will probably crash.
+Show Item Picker
+Show "Debug Break" buttons in other sections (io.ConfigDebugIsDebuggerPresent)
+Visualize
+Show Debug Log
+You can also call ImGui::ShowDebugLogWindow() from your code.
+Show ID Stack Tool
+You can also call ImGui::ShowIDStackToolWindow() from your code.
+Show windows begin order
+Show windows rectangles
+##show_windows_rect_type
+(%6.1f,%6.1f) (%6.1f,%6.1f) Size (%6.1f,%6.1f) %s
+Show tables rectangles
+##show_table_rects_type
+Table 0x%08X (%d columns, in '%s')
+(%6.1f,%6.1f) (%6.1f,%6.1f) Size (%6.1f,%6.1f) Col %d %s
+Show groups rectangles
+Validate
+Debug Begin/BeginChild return value
+Some calls to Begin()/BeginChild() will return false.
+Will cycle through window depths then repeat. Windows should be flickering while running.
+UTF-8 Encoding viewer
+You can also call ImGui::DebugTextEncoding() from your code with a given string to test that your UTF-8 encoding settings are correct.
+##DebugTextEncodingBuf
+Windows (%d)
+By display order
+By focus order (root windows)
+By submission order (begin stack)
+DrawLists
+DrawLists (%d)
+Show ImDrawCmd mesh when hovering
+Show ImDrawCmd bounding boxes when hovering
+DrawList
+Viewports
+Viewports (%d)
+Windows Minimap
+Fonts (%d), Textures (%d)
+Popups (%d)
+PopupID: %08x, Window: '%s' (%s%s), RestoreNavWindow '%s', ParentWindow '%s'
+Tab Bars (%d)
+Tables (%d)
+InputText
+TypingSelect
+TypingSelect (%d)
+MultiSelect (%d)
+BoxSelect ID=0x%08X, Starting = %d, Active %d
+Save to memory
+Save to disk
+io.ConfigDebugIniSettings
+SettingsDirtyTimer %.2f
+SettingsHandlers
+Settings handlers: (%d)
+SettingsWindows
+Settings packed data: Windows: %d bytes
+SettingsTables
+Settings packed data: Tables: %d bytes
+SettingsIniData
+Settings unpacked data (.ini): %d bytes
+Memory allocations
+Recent frames with allocations:
+Frame %06d: %+3d ( %2d alloc, %2d free )
+<- %d frames ago
+KEYBOARD/GAMEPAD/MOUSE KEYS
+Keys down:
+Keys pressed:
+Keys released:
+Keys mods: %s%s%s%s
+Chars queue:
+'%c' (0x%04X)
+MOUSE STATE
+Mouse pos: (%g, %g)
+Mouse pos: <INVALID>
+Mouse delta: (%g, %g)
+Mouse down:
+b%d (%.02f secs)
+Mouse clicked:
+b%d (%d)
+Mouse released:
+Mouse wheel: %.1f
+MouseStationaryTimer: %.2f
+Mouse source: %s
+Pen Pressure: %.1f
+MOUSE WHEELING
+WheelingWindow: '%s'
+WheelingWindowReleaseTimer: %.2f
+WheelingAxisAvg[] = { %.3f, %.3f }, Main Axis: %s
+KEY OWNERS
+##owners
+%s: 0x%08X%s
+ LockUntilRelease
+ LockThisFrame
+SHORTCUT ROUTING
+Declared shortcut routes automatically set key owner when mods matches.
+##routes
+%s: 0x%08X (scored %d)
+**DebugBreak**
+in SetShortcutRouting() for this KeyChord
+(ActiveIdUsing: AllKeyboardKeys: %d, NavDirMask: 0x%X)
+Internal state
+WINDOWING
+HoveredWindow: '%s'
+HoveredWindow->Root: '%s'
+HoveredWindowUnderMovingWindow: '%s'
+ActiveId: 0x%08X/0x%08X (%.2f sec), AllowOverlap: %d, Source: %s
+ActiveIdWindow: '%s'
+ActiveIdUsing: AllKeyboardKeys: %d, NavDirMask: %X
+HoveredId: 0x%08X (%.2f sec), AllowOverlap: %d
+HoverItemDelayId: 0x%08X, Timer: %.2f, ClearTimer: %.2f
+DragDrop: %d, SourceId = 0x%08X, Payload "%s" (%d bytes)
+NAV,FOCUS
+NavWindow: '%s'
+NavId: 0x%08X, NavLayer: %d
+NavInputSource: %s
+NavLastValidSelectionUserData = %lld (0x%llX)
+NavActive: %d, NavVisible: %d
+NavActivateId/DownId/PressedId: %08X/%08X/%08X
+NavActivateFlags: %04X
+NavCursorVisible: %d, NavHighlightItemUnderNav: %d
+NavFocusScopeId = 0x%08X
+NavFocusRoute[] = 
+In window "%s"
+NavWindowingTarget: '%s'
+To call IM_DEBUG_BREAK() %s:
+- Press 'Pause/Break' on keyboard.
+- Press 'Pause/Break' on keyboard.
+- or Click (may alter focus/active id).
+- or navigate using keyboard and press space.
+Choose one way that doesn't interfere with what you are trying to debug!
+You need a debugger attached or this will crash!
+Columns Id: 0x%08X, Count: %d, Flags: 0x%04X
+Width: %.1f (MinX: %.1f, MaxX: %.1f)
+Column %02d: OffsetNorm %.3f (= %.1f px)
+%s: '%s' %d vtx, %d indices, %d cmds
+CURRENTLY APPENDING
+Warning: owning Window is inactive. This DrawList is not being rendered!
+Callback %p, user_data %p
+DrawCmd:%5d tris, Tex %s, ClipRect (%4.0f,%4.0f)-(%4.0f,%4.0f)
+Mesh: ElemCount: %d, VtxOffset: +%d, IdxOffset: +%d, Area: ~%0.f px
+%s %04d: pos (%8.2f,%8.2f), uv (%.6f,%.6f), col %08X
+Font: "%s": %d sources(s)
+The quick brown fox jumps over the lazy dog
+Set as default
+Clear bakes
+Clear unused
+Font scale
+Fallback character: '%s' (U+%04X)
+Ellipsis character: '%s' (U+%04X)
+Input %d: '%s' [%d], Oversample: %d,%d, PixelSnapH: %d, Offset: (%.1f,%.1f)
+Input Glyphs Overlap Detection Tool
+- First Input that contains the glyph is used.
+- Use ImFontConfig::GlyphExcludeRanges[] to specify ranges to ignore glyph in given Input.
+- Prefer using a small number of ranges as the list is scanned every time a new glyph is loaded,
+  - e.g. GlyphExcludeRanges[] = { ICON_MIN_FA, ICON_MAX_FA, 0 };
+- This tool doesn't cache results and is slow, don't keep it open!
+U+%04X-U+%04X: %d codepoints in %d inputs
+Codepoint U+%04X (%s)
+Baked at { %.2fpx, d.%.2f }: %d glyphs%s
+ *Unused*
+Load all
+Ascent: %f, Descent: %f, Ascent-Descent: %f
+Texture Area: about %d px ~%dx%d px
+Input %d: '%s', Oversample: (%d=>%d,%d=>%d), PixelSnapH: %d, Offset: (%.1f,%.1f)
+U+%04X..U+%04X (%d %s)
+Codepoint: U+%04X
+AdvanceX: %.1f
+Pos: (%.2f,%.2f)->(%.2f,%.2f)
+UV: (%.3f,%.3f)->(%.3f,%.3f)
+PackId: %d (%dx%d rect at %d,%d)
+SourceIdx: %d
+%s: %d entries, %d bytes
+Key 0x%08X Value { i: %d }
+%s 0x%08X (%d tabs)%s  {
+ *Inactive*
+%02d%c Tab 0x%08X '%s' Offset: %.2f, Width: %.2f/%.2f
+viewport0
+Viewport #%d
+Main Pos: (%.0f,%.0f), Size: (%.0f,%.0f)
+WorkArea Inset Left: %.0f Top: %.0f, Right: %.0f, Bottom: %.0f
+Flags: 0x%04X =%s%s%s
+ IsPlatformWindow
+ IsPlatformMonitor
+ OwnedByApp
+%s: NULL
+%s '%s'%s
+Note: some memory buffers have been compacted/freed.
+in Begin()
+Pos: (%.1f,%.1f), Size: (%.1f,%.1f), ContentSize (%.1f,%.1f) Ideal (%.1f,%.1f)
+Flags: 0x%08X (%s%s%s%s%s%s%s%s%s..)
+Tooltip 
+ChildMenu 
+NoSavedSettings 
+NoMouseInputs
+NoNavInputs
+AlwaysAutoResize
+ChildFlags: 0x%08X (%s%s%s%s..)
+Borders 
+ResizeX 
+ResizeY 
+NavFlattened 
+Scroll: (%.2f/%.2f,%.2f/%.2f) Scrollbar:%s%s
+Active: %d/%d, WriteAccessed: %d, BeginOrderWithinContext: %d
+Appearing: %d, Hidden: %d (CanSkip %d Cannot %d), SkipItems: %d
+NavLastIds[%d]: 0x%08X
+NavLastIds[%d]: 0x%08X at +(%.1f,%.1f)(%.1f,%.1f)
+NavPreferredScoringPosRel[%d] = {%.1f,%.1f)
+NavLayersActiveMask: %X, NavLastChildNavWindow: %s
+RootWindow
+ParentWindow
+ParentWindowForFocusRoute
+ChildWindows
+Columns sets (%d)
+0x%08X "%s" Pos (%d,%d) Size (%d,%d) Collapsed=%d
+[%04d] Window
+[%s] [%05d] 
+Dear ImGui Debug Log
+(except InputRouting which is spammy)
+ActiveId
+Selection
+InputRouting
+Configure Outputs..
+OutputToTTY
+OutputToTestEngine
+in ItemAdd()
+(void*)0x%p
+0x%08X [override]
+Dear ImGui ID Stack Tool
+Hover an item with the mouse to display elements of the ID Stack leading to the item's final ID.
+Each level of the stack correspond to a PushID() call.
+All levels of the stack are hashed together to make the final ID of a widget (ID displayed at the bottom level of the stack).
+Read FAQ entry about the ID stack for details.
+Ctrl+C: copy path
+*COPIED*
+- Path "%s"
+0xDDDDDDDD
+- Load additional fonts with io.Fonts->AddFontXXX() functions.
+- Read FAQ and docs/FONTS.md for more details.
+- Load additional fonts with io.Fonts->AddFontXXX() functions.
+- The font atlas is built when calling io.Fonts->GetTexDataAsXXXX() or io.Fonts->Build().
+- Read FAQ and docs/FONTS.md for more details.
+- If you need to add/remove fonts at runtime (e.g. for DPI change), do it before calling NewFrame().
+Dear ImGui 1.92.2 (19220)
+Size column to fit###SizeOne
+Size all columns to fit###SizeAll
+Size all columns to default###SizeAll
+Reset order###ResetOrder
+(Main menu bar)
+(Untitled)
+Open '%s'
+Copy Link###CopyLink
+#COLLAPSE
+LeftArrow
+RightArrow
+DownArrow
+PageDown
+Backspace
+LeftCtrl
+LeftShift
+LeftSuper
+RightCtrl
+RightShift
+RightAlt
+RightSuper
+Apostrophe
+Semicolon
+LeftBracket
+Backslash
+RightBracket
+GraveAccent
+CapsLock
+ScrollLock
+PrintScreen
+KeypadDecimal
+KeypadDivide
+KeypadMultiply
+KeypadSubtract
+KeypadAdd
+KeypadEnter
+KeypadEqual
+AppForward
+GamepadStart
+GamepadBack
+GamepadFaceLeft
+GamepadFaceRight
+GamepadFaceUp
+GamepadFaceDown
+GamepadDpadLeft
+GamepadDpadRight
+GamepadDpadUp
+GamepadDpadDown
+GamepadL1
+GamepadR1
+GamepadL2
+GamepadR2
+GamepadL3
+GamepadR3
+GamepadLStickLeft
+GamepadLStickRight
+GamepadLStickUp
+GamepadLStickDown
+GamepadRStickLeft
+GamepadRStickRight
+GamepadRStickUp
+GamepadRStickDown
+MouseLeft
+MouseRight
+MouseMiddle
+MouseWheelX
+MouseWheelY
+ModShift
+ModSuper
+[io] LockWheelingWindow() "%s"
+[io] %s: MousePos (-FLT_MAX, -FLT_MAX)
+[io] %s: MousePos (%.1f, %.1f) (%s)
+[io] %s: MouseButton %d %s (%s)
+[io] %s: MouseWheel (%.3f, %.3f) (%s)
+[io] %s: Key "%s" %s
+[io] %s: Text: %c (U+%08X)
+[io] %s: AppFocused %d
+##NavUpdateWindowing
+[focus] NavRestoreLayer: from "%s" to SetNavWindow("%s")
+[nav] NavUpdateCancelRequest()
+[nav] NavMoveRequestForward %d
+[nav] NavInitRequest: from move, window "%s", layer=%d
+[nav] NavMoveRequest: clamp NavRectRel for gamepad move
+##NavWindowingOverlay
+##MainMenuBar
+*Missing Text*
+Pos=%i,%i
+Size=%i,%i
+IsChild=%d
+[%s][%s]
+IsChild=1
+Size=%d,%d
+Pos=%d,%d
+Collapsed=1
+xdg-open
+TouchScreen
+Keyboard
+<unknown>
+%d past errors skipped.
+Hold SHIFT when clicking to enable for 2 frames only (useful for spammy log entries)
+HoveredId: 0x%08X
+Press ESC to abort picking.
+Remap w/ Ctrl+Shift: click anywhere to select new mouse button.
+Click %s Button to break in debugger! (remap w/ Ctrl+Shift)
+"%s" [window]
+?fff?333?
+>fff?fff?fff?
+?fff?fff?fff?
+?333?333?fff?
+Destroyed
+WantCreate
+WantUpdates
+WantDestroy
+Backend does not support ImGuiBackendFlags_RendererHasTextures, and font atlas is not built! Update backend OR make sure you called ImGui_ImplXXXX_NewFrame() function for renderer backend, which should call io.Fonts->GetTexDataAsRGBA32() / GetTexDataAsAlpha8().
+Called ImFontAtlas::Build() before ImGuiBackendFlags_RendererHasTextures got set! With new backends: you don't need to call Build().
+ProggyClean.ttf
+While loading '%s'
+Could not load font file!
+[font] Created baked %.2fpx
+[font] Discard baked %.2f for "%s"
+[font] Texture #%03d: resize+repack %dx%d => Texture #%03d: %dx%d
+[font] Texture #%03d: resize failed. Will grow.
+[font] Failed packing %dx%d rectangle. Returning fallback.
+[font] Texture #%03d: create %dx%d
+[font] Texture #%03d: destroy %dx%d, texid=0x%llX, backend_data=%p
+[font] Texture #%03d: update %d regions, texid=0x%llX, backend_data=0x%llX
+stbtt_GetFontOffsetForIndex(): FontData is incorrect, or FontNo cannot be found.
+stbtt_InitFont(): failed to parse FontData. It is correct and complete? Check FontDataSize.
+..-         -XXXXXXX-    X    -           X           -XXXXXXX          -          XXXXXXX-     XX          - XX       XX ..-         -X.....X-   X.X   -          X.X          -X.....X          -          X.....X-    X..X         -X..X     X..X---         -XXX.XXX-  X...X  -         X...X         -X....X           -           X....X-    X..X         -X...X   X...XX           -  X.X  - X.....X -        X.....X        -X...X            -            X...X-    X..X         - X...X X...X XX          -  X.X  -X.......X-       X.......X       -X..X.X           -           X.X..X-    X..X         -  X...X...X  X.X         -  X.X  -XXXX.XXXX-       XXXX.XXXX       -X.X X.X          -          X.X X.X-    X..XXX       -   X.....X   X..X        -  X.X  -   X.X   -          X.X          -XX   X.X         -         X.X   XX-    X..X..XXX    -    X...X    X...X       -  X.X  -   X.X   -    XX    X.X    XX    -      X.X        -        X.X      -    X..X..X..XX  -     X.X     X....X      -  X.X  -   X.X   -   X.X    X.X    X.X   -       X.X       -       X.X       -    X..X..X..X.X -    X...X    X.....X     -  X.X  -   X.X   -  X..X    X.X    X..X  -        X.X      -      X.X        -XXX X..X..X..X..X-   X.....X   X......X    -  X.X  -   X.X   - X...XXXXXX.XXXXXX...X -         X.X   XX-XX   X.X         -X..XX........X..X-  X...X...X  X.......X   -  X.X  -   X.X   -X.....................X-          X.X X.X-X.X X.X          -X...X...........X- X...X X...X X........X  -  X.X  -   X.X   - X...XXXXXX.XXXXXX...X -           X.X..X-X..X.X           - X..............X-X...X   X...XX.........X -XXX.XXX-   X.X   -  X..X    X.X    X..X  -            X...X-X...X            -  X.............X-X..X     X..XX..........X-X.....X-   X.X   -   X.X    X.X    X.X   -           X....X-X....X           -  X.............X- XX       XX X......XXXXX-XXXXXXX-   X.X   -    XX    X.X    XX    -          X.....X-X.....X          -   X............X--------------X...X..X    ---------   X.X   -          X.X          -          XXXXXXX-XXXXXXX          -   X...........X -             X..X X..X   -       -XXXX.XXXX-       XXXX.XXXX       -------------------------------------    X..........X -             X.X  X..X   -       -X.......X-       X.......X       -    XX           XX    -           -    X..........X -             XX    X..X  -       - X.....X -        X.....X        -   X.X           X.X   -           -     X........X  -                   X..X  -       -  X...X  -         X...X         -  X..X           X..X  -           -     X........X  -                    XX   -       -   X.X   -          X.X          - X...XXXXXXXXXXXXX...X -           -     XXXXXXXXXX  -             -------------       -    X    -           X           -X.....................X-           -------------------                                 ----------------------------------- X...XXXXXXXXXXXXX...X -                                                                                                 -  X..X           X..X  -                                                                                                 -   X.X           X.X   -                                                                                                 -    XX           XX    -                                           
+, name%Y
+X%	B|$HA
+Mc'_A$Cm
+A3" 7OK	 3J
+t/2 Wjc	t1
+5by Tristan GrimmerRegularTTX ProggyCleanTT2004/
+unicode#0x0001
+#SCROLLX
+#SCROLLY
+--------------------------------
+##ComboPopup
+##Combo_%02d
+*Unknown item*
+%.0f deg
+ID: 0x%08X, ActiveID: 0x%08X
+CurLenA: %d, Cursor: %d, Selection: %d..%d
+BufCapacity: %d
+(Internal Buffer: TextA Size: %d, Capacity: %d)
+has_preferred_x: %d (%.2f)
+undo_point: %d, redo_point: %d, undo_char_point: %d, redo_char_point: %d
+undopoints
+%c [%02d] where %03d, insert %03d, delete %03d, char_storage %03d "%.*s"
+#%02X%02X%02X%02X
+#%02X%02X%02X
+##ColorButton
+##picker
+##current
+Original
+##original
+##preview
+#%02X%02X%02X
+R: %d, G: %d, B: %d
+(%.3f, %.3f, %.3f)
+#%02X%02X%02X%02X
+R:%d, G:%d, B:%d, A:%d
+(%.3f, %.3f, %.3f, %.3f)
+H: %.3f, S: %.3f, V: %.3f
+H: %.3f, S: %.3f, V: %.3f, A: %.3f
+0.00..1.00
+Copy as..
+(%.3ff, %.3ff, %.3ff, %.3ff)
+(%d,%d,%d,%d)
+##selectable
+##previewing_picker
+Alpha Bar
+SearchBuffer = "%s"
+SingleCharMode = %d, Size = %d, Lock = %d
+LastRequest = time: %.2f, frame: %d
+##BoxSelect
+BeginMultiSelect
+EndMultiSelect() FocusScope mismatch!
+[selection] EndMultiSelect: Reset RangeSrcItem.
+[selection] EndMultiSelect: Reset NavIdItem.
+EndMultiSelect
+MultiSelect 0x%08X in '%s'%s
+RangeSrcItem = %lld (0x%llX), RangeSelected = %d
+NavIdItem = %lld (0x%llX), NavIdSelected = %d
+LastSelectionSize = %d
+%d: %8.4g
+%d: %8.4g
+%s: %.3f
+##MenuBar
+Calling EndMainMenuBar() not from a menu-bar!
+Mismatched BeginTabBar()/EndTabBar()!
+Needs to be called between BeginTabBar() and EndTabBar()!
+[selection] BeginBoxSelect() 0X%08X: Activate
+[selection] BeginBoxSelect() 0X%08X: Deactivate
+[selection] %s: Request: SetAll %d (= %s)
+SelectAll
+[selection] %s: Request: SetRange %lld..%lld (0x%llX..0x%llX) = %d (dir %d)
+##Instances
+EndTable() call should only be done while in BeginTable() scope!
+Mismatching PushID/PopID!
+Too many PopItemWidth!
+Call should only be done while in BeginTable() scope!
+Called TableSetupColumn() too many times!
+TableSetColumnIndex() invalid column index!
+##AngledHeaders
+##ContextMenu
+<Unknown>
+Table 0x%08X (%d columns, in '%s')%s
+** %d instances of same table! Some data below will refer to last instance.
+in BeginTable()
+Clear settings
+OuterRect: Pos: (%.1f,%.1f) Size: (%.1f,%.1f) Sizing: '%s'
+ColumnsGivenWidth: %.1f, ColumnsAutoFitWidth: %.1f, InnerWidth: %.1f%s
+CellPaddingX: %.1f, CellSpacingX: %.1f/%.1f, OuterPaddingX: %.1f
+HoveredColumnBody: %d, HoveredColumnBorder: %d
+ResizedColumn: %d, ReorderColumn: %d, HeldHeaderColumn: %d
+Instance %d: HoveredRow: %d, LastOuterHeight: %.2f
+Column %d order %d '%s': offset %+.2f to %+.2f%s
+Enabled: %d, VisibleX/Y: %d/%d, RequestOutput: %d, SkipItems: %d, DrawChannels: %d,%d
+WidthGiven: %.1f, Request/Auto: %.1f/%.1f, StretchWeight: %.3f (%.1f%%)
+MinX: %.1f, MaxX: %.1f (%+.1f), ClipRect: %.1f to %.1f (+%.1f)
+ContentWidth: %.1f,%.1f, HeadersUsed/Ideal %.1f/%.1f
+Sort: %d%s, UserID: 0x%08X, Flags: 0x%04X: %s%s%s..
+ (Frozen)
+WidthStretch 
+WidthFixed 
+NoResize 
+Settings 0x%08X (%d columns)
+SaveFlags: 0x%08X
+ColumnsCount: %d (max %d)
+Column %d Order %d SortOrder %d %s Vis %d %s %7.3f UserID 0x%08X
+0x%08X,%d
+RefScale=%f
+Column %d%n
+UserID=0x%08X%n
+Width=%d%n
+Weight=%f%n
+Visible=%d%n
+Order=%d%n
+Sort=%d%c%n
+[%s][0x%08X,%d]
+RefScale=%g
+Column %-2d
+ UserID=%08X
+ Weight=%.4f
+ Width=%d
+ Visible=%d
+ Order=%d
+ Sort=%d%c
+FixedFit
+FixedSame
+StretchProp
+StretchSame
+imgui_impl_opengl3
+#version 300 es
+#version %d
+uniform mat4 ProjMtx;
+attribute vec2 Position;
+attribute vec2 UV;
+attribute vec4 Color;
+varying vec2 Frag_UV;
+varying vec4 Frag_Color;
+void main()
+    Frag_UV = UV;
+    Frag_Color = Color;
+    gl_Position = ProjMtx * vec4(Position.xy,0,1);
+uniform mat4 ProjMtx;
+in vec2 Position;
+in vec2 UV;
+in vec4 Color;
+out vec2 Frag_UV;
+out vec4 Frag_Color;
+void main()
+    Frag_UV = UV;
+    Frag_Color = Color;
+    gl_Position = ProjMtx * vec4(Position.xy,0,1);
+precision highp float;
+layout (location = 0) in vec2 Position;
+layout (location = 1) in vec2 UV;
+layout (location = 2) in vec4 Color;
+uniform mat4 ProjMtx;
+out vec2 Frag_UV;
+out vec4 Frag_Color;
+void main()
+    Frag_UV = UV;
+    Frag_Color = Color;
+    gl_Position = ProjMtx * vec4(Position.xy,0,1);
+#ifdef GL_ES
+    precision mediump float;
+uniform sampler2D Texture;
+varying vec2 Frag_UV;
+varying vec4 Frag_Color;
+void main()
+    gl_FragColor = Frag_Color * texture2D(Texture, Frag_UV.st);
+uniform sampler2D Texture;
+in vec2 Frag_UV;
+in vec4 Frag_Color;
+out vec4 Out_Color;
+void main()
+    Out_Color = Frag_Color * texture(Texture, Frag_UV.st);
+precision mediump float;
+uniform sampler2D Texture;
+in vec2 Frag_UV;
+in vec4 Frag_Color;
+layout (location = 0) out vec4 Out_Color;
+void main()
+    Out_Color = Frag_Color * texture(Texture, Frag_UV.st);
+in vec2 Frag_UV;
+in vec4 Frag_Color;
+uniform sampler2D Texture;
+layout (location = 0) out vec4 Out_Color;
+void main()
+    Out_Color = Frag_Color * texture(Texture, Frag_UV.st);
+vertex shader
+fragment shader
+shader program
+Position
+ERROR: ImGui_ImplOpenGL3_CreateDeviceObjects: failed to compile %s! With GLSL: %s
+ERROR: ImGui_ImplOpenGL3_CreateDeviceObjects: failed to link %s! With GLSL %s
+dlfcn_ex
+dlopen: %s
+ro.build.version.sdk
+/system/lib64/
+/apex/com.android.runtime/lib64/
+/apex/com.android.art/lib64/
+/odm/lib64/
+/vendor/lib64/
+/proc/self/maps
+failed to open maps
+%s not found in my userspace
+%lx-%*lx %*s %*s %*s %*s %s
+failed to read load address for %s
+%s loaded in Android at 0x%08lx
+failed to open %s
+lseek() failed for %s
+mmap() failed for %s
+no memory for %s
+%s: k=%d shdr=%p type=%x
+fake_dlopen_with_path
+%s: duplicate DYNSYM sections
+%s: no memory for .dynsym
+%s: no memory for .dynstr
+dynamic sections not found in %s
+%s: ok, dynsym = %p, dynstr = %p
+%s found at %p
+[!] [%s:%d:%s]: 
+/Users/runner/work/Dobby/Dobby/source/InterceptRouting/Routing/FunctionInlineReplace/FunctionInlineReplaceExport.cc
+DobbyHook
+[!] function address is 0x0
+[!] function %p already been hooked.
+16InterceptRouting
+N2zz5arm6414TurboAssemblerE
+N2zz5arm649AssemblerE
+10CodeBuffer
+28FunctionInlineReplaceRouting
+10LiteObject
+22LiteCollectionIterator
+21LiteIteratorInterface
+17LiteMutableBuffer
+16LiteMutableArray
+23LiteCollectionInterface
+N21LiteIteratorInterface8DelegateE
+N2zz13AssemblerBaseE
+/Users/runner/work/Dobby/Dobby/./source/core/modules/assembler/assembler-arm64.h
+unreachable code!!!
+link_confused_instructions
+N2zz5arm6411CPURegisterE
+12RegisterBase
+14CodeBufferBase
+/Users/runner/work/Dobby/Dobby/source/MemoryAllocator/MemoryArena.cc
+AllocateChunk
+[!] Failed to alloc page
+/Users/runner/work/Dobby/Dobby/source/InstructionRelocation/arm64/ARM64InstructionRelocation.cc
+GenRelocateCodeAndBranch
+unimplemented code!!!
+/Users/runner/work/Dobby/Dobby/source/UserMode/UnifiedInterface/platform-posix.cc
+[!] pthread create failed
+SetPermission
+[!] [!] %s
+GetProtectionFromMemoryPermission
+__next_prime overflow
+cannot allocate __cxa_eh_globals
+std::__libcpp_tls_set failure in __cxa_get_globals()
+execute once failure in __cxa_get_globals_fast()
+cannot create thread specific key for __cxa_get_globals()
+cannot zero out thread value for __cxa_get_globals()
+__cxa_guard_acquire failed to acquire mutex
+__cxa_guard_acquire condition variable wait failed
+__cxa_guard_acquire failed to release mutex
+__cxa_guard_release failed to acquire mutex
+__cxa_guard_release failed to release mutex
+__cxa_guard_release failed to broadcast condition variable
+__cxa_guard_abort failed to acquire mutex
+__cxa_guard_abort failed to release mutex
+__cxa_guard_abort failed to broadcast condition variable
+unexpected_handler unexpectedly returned
+terminate_handler unexpectedly returned
+terminate_handler unexpectedly threw an exception
+Pure virtual function called!
+Deleted virtual function called!
+N10__cxxabiv116__shim_type_infoE
+N10__cxxabiv117__class_type_infoE
+N10__cxxabiv117__pbase_type_infoE
+N10__cxxabiv119__pointer_type_infoE
+N10__cxxabiv120__function_type_infoE
+N10__cxxabiv129__pointer_to_member_type_infoE
+N10__cxxabiv123__fundamental_type_infoE
+N10__cxxabiv117__array_type_infoE
+N10__cxxabiv116__enum_type_infoE
+N10__cxxabiv120__si_class_type_infoE
+N10__cxxabiv121__vmi_class_type_infoE
+std::exception
+std::bad_exception
+std::bad_alloc
+bad_array_new_length
+bad_array_length
+St9exception
+St13bad_exception
+St16bad_array_length
+St9bad_alloc
+St20bad_array_new_length
+St12domain_error
+St11logic_error
+St16invalid_argument
+St12length_error
+St12out_of_range
+St11range_error
+St13runtime_error
+St14overflow_error
+St15underflow_error
+std::bad_cast
+std::bad_typeid
+St9type_info
+St8bad_cast
+St10bad_typeid
+libc++abi
+terminating with %s exception of type %s: %s
+terminating with %s exception of type %s
+terminating with %s foreign exception
+terminating
+uncaught
+unexpected
+ volatile
+ restrict
+VTT for 
+typeinfo for 
+typeinfo name for 
+covariant return thunk to 
+construction vtable for 
+thread-local wrapper routine for 
+thread-local initialization routine for 
+non-virtual thunk to 
+guard variable for 
+reference temporary for 
+decltype(
+delete[] 
+unsigned char
+unsigned short
+unsigned __int128
+alignof (
+const_cast<
+dynamic_cast<
+operator&&
+operator&
+operator&=
+operator=
+operator()
+operator,
+operator~
+operator 
+operator delete[]
+operator*
+operator delete
+operator/
+operator/=
+operator^
+operator^=
+operator==
+operator>=
+operator>
+operator[]
+operator<=
+operator"" 
+operator<<
+operator<<=
+operator<
+operator-
+operator-=
+operator*=
+operator--
+operator new[]
+operator!=
+operator!
+operator new
+operator||
+operator|
+operator|=
+operator->*
+operator+
+operator+=
+operator++
+operator->
+operator?
+operator%
+operator%=
+operator>>
+operator>>=
+_GLOBAL__N
+(anonymous namespace)
+noexcept (
+reinterpret_cast<
+static_cast<
+sizeof (
+sizeof...(
+std::string
+std::basic_string<char, std::char_traits<char>, std::allocator<char> >
+std::istream
+std::basic_istream<char, std::char_traits<char> >
+basic_istream
+std::ostream
+std::basic_ostream<char, std::char_traits<char> >
+basic_ostream
+std::iostream
+std::basic_iostream<char, std::char_traits<char> >
+basic_iostream
+'lambda'(
+::string literal
+std::allocator
+std::basic_string
+invocation function for block in 
+ complex
+ imaginary
+objc_object<
+objcproto
+unsigned int
+unsigned long
+unsigned long long
+long double
+__float128
+decimal64
+decimal128
+decimal32
+decimal16
+decltype(auto)
+std::nullptr_t
+pixel vector[
+BOS/2rL{>
+Rcvt Y^_
+$hmtx5~^
+4Yprepv\
+ " & 0 4 : < > D p y 
+! !"!&!.!^"
+"+"H"a"e%
+ & / 2 9 < > D p t 
+! !"!&!.!["
+"+"H"`"d%
+\[ZYVUTSMH762/.-,&%
+#D`D-,KRXED
+!!Y-,  EhD 
+%#D!!!-,
+%#D!!!-, i
+!!Y-,F#F`
+Y-,KS#KQZX E
+!!Y-,KS#KQZX8
+!!Y-,KS#KQZX8
+C`BYYYYYYY
+YYYBBBBB-,
+CTXKS#KQZX8
+!!!!Y-,E
+h#KQX# E d
+!!!!Y-, 
+b \X!!#!
++++++stss++++++++++++++++++++
+#D+s++++++++++++++++sssssssss+s+s+++++ss++++s++++
+u++++++++++++++++++++stsst+st++++^s+++s^st++++
++++++++++++++++++++t++++++++++++++sss++st+++++
+e e)c+j0d:
+99/+10]]
+#"&54632
+#"&54632
+YdfXXfdY
+YdfXXfdY
+F L!A-A<Q
+#"$5467>
+4##h5na552
+_m{YKtO#
+9/3/310]
+$#y_^{$"
+/++++++++]3
+++92/]/3]
+3/+++]10++]
+++///+++
+532654&'.
+8J*),jQPi
+/++++++]3/++++]
+]++++++++++++
+++/++++]
+4I(2+xOMj &
+9%3137I%B1C7_
+P P!e!u1
+T"_+Y,_1T3T7`
+5/)/6#E#V#d#
+9]Y10]+++++
+#"$54675.
+<%<+5.L%L+C.X
+/]3]/++10KSX@
+/]3]/++10KSX@
+1%X-4oVqoD#
+$" '/?/AG@DHVH
+h!e'f?fAt
+?+<?99/]++
+++++++++
+++++++++
+++++++++
+++++++++
+++++++++
++++++++++
+	(	8	J	h	
+++++++++
+++++++++
+++++++++
+++++++++
+9/]+++++CTX
+++++++++
+++++++++
+++++++++
++++++++]
++++++++2
++++2/+]99/++++]
+]Y10++]++++++++
+32654&'.
+/++++++]
+++++++++
+++++++++
+/<3/+++++
++++++++++++
+++++++++++
++++++++22/+]
+#"&54676$754&'.
+++++++++
++++++++22]
++++++++++
++++++++++++
+++++++++++
+++++++22
+99?10]!#5
++++++++++
+++++++++++222
+++++++++2/
+#5354632
+>*2,:0D	K
+++++++++++
++++++++++
++++++++22/]
+5.)'nDfDC
++++++++++
++++++++2]
++++++++++++
++++++++]
+++++++++++++++++++
++++++++++++]22
++++++++++
++++++++2]
+3/+3/]99
++++++++]
+++++++++++++!#
+-0-@-P-p-
++++++++++
++++++++2
+++++++++++++
++++++++++++
++++++++++++++++++++++!#
+]|IR`U`U
++++++++++
++++++++2]
+++++++++++
++++++++++++
+++++++++
++++++++++
++++++++22]
+++++++++
++++++++++++
++++++++++
+++++++++22
++++++++++
++++++++2]
+&	*$2	<$B	L$^
++++++/+++++
+32654'&'.
+nEz0/71#
+++++++++++22
++++++++2/
++++++++++
++++++++]
++++++++++
++++++++2
+]++++++	
++++++++	
+92/]++++
+/+++++++3/]
+eiKIkiKIk
+#5!5!5!5!5
+_ _%_'[-[9PBk
+j e=e@aB|	|
+32654&'.
+'&'&54675.
+hvcaXBAH
+RSrfeT@C@
+!.	%!U)`
+#"&5467>
+99//10++++
+8^z;?;qc 
+#"&54632
+>n)ggTEL=
+532654&#"
++++++++++
+3/]/]<10]
+32654&'3
+/3/99//10++++
+141K1_1k1{1
+#"&5467>
+!a(/|NqoB%
+iY,rVVrsUVr6
+/VstUVss
+]2/]+++++
+X!X%Z'^?a
+++++++++++22
+..]YY10]
+++++++++++2
++++++++++
+54&#52654&'.
+}$s.s8|K
+#"&54676$754&'.
+O!@%O-@/Y
+++++++]2
+++++++]2
+D J+D-Z+T-o
+.]YY10]]]
++++++++++
+++++++++
++++222/]/
+#"&54675
+#"&54676$754&'.
++]/++++++++++3
+99?33/10]
+++++++++++2
+++++++++++2
+#"&5467!
+#"&5467&
+9//]/]+++
+>*2,:0D	K
++++++++++
+3/3/]10]
+5.)'nDfDC
+++++++++++
++++++++++++
++++++++++22
+++++++++++
+++++++++2
+}f4S&-< 0-
+++++++++]2
+#!phN/2 !,
++++++++2
++++++++]2
++++++++]2
+210+!#53
++++++++]
+/++++++5]
+]++++++++++
+++//]/]3/
++++++++++
+++++++++++
++++++++++]
+++++++++++2
++++++++++]
+++2/]3/++
+++++++++++
++++++++++]
+++++++++++22
+++++++22
++++++++++
+++3/++++++++]3
++++++++++
++++++++++
+++++++++++
+9/+++++++++
+2);.2024;6@
+@)M.@0@4M6S
++3//]+++
++++++++++
+32654&'#
+#"&'53<N(^R
+4'9*464AH
+D'H*C6K>DA_
+j0d2d6fB`Fy
+z-p6p7uAuD
+X(W?h(g?y(v?
+]Y10++]++++++++
+32654&'.
+2$ +;4 :;C K;Z
+\-R7SFRIk
+k-b7bFbI|
+|(t7y?tB
+++//++++
+32654'&'.
+nEz0/71#
+32654&'#
+]+++++++++22
+32654&'#"&5
+]+++++++++222
++++++++++2
+]qr^qr^]qr^]r^]r^]q^55
+=	=!9"L	L!K"w
+++++++++++
+++++++++
+++++++++
+]++++++++
+]]]]]]]]]]]
+]]]]]]]]]]
+! '&'&5!&'&# 
++]++++10]
+U:!5'J!E'
+32654&'53
++++++++++
+++++++++++
+32654&'53
++++++++++
++++++++++q
+32654&'53
+90*G99HI88H}
+++++++++++
+#"&54676$754&'.
+.))m?:i*1P
+CG99HI88H
+,6KJ79LM
+/^qr^]^]q^]^
+#"&54632
+uXXuvWXu
+#"&54673
+o6\)/A'44
+g2]*/I!39
+/33//3/]
+/33/]310
+}BBn/0&!
+/]++++5/]+5]
+/]++++5/]+5]
+]/]++++++5/]5
+/]++++++5/]5]
+- -P-`-p-
+]/]++++++5
+++++++++++
+++++++++++
++++++++++++
+9//]+q3/
+9/]]+++++
+9]++10++])
++++++++++
+99?10+]!#5
+C&C7V&y)
++++++++++
+99/+++++
+9910+++]
+"bUpt5,,u>
+9/]+++++++++
+2?33/+++]10]
+FEWqy[l_A@
+d-N*#380-h5o
+>d*)14)%e8f
+1'$y8VGfK([(T
++++++++++
+++++++++++
+/]++++++
+1 )lOOl)"/
+.$(pOOp($.
++++++++++
++++++++++
+9910++!#5
+6(D(G<V-V<i
+3/+/+++++
+54675#5!
+Dm0-6A3-vP
+Bi/+3K@?
+OxD7N69<
++++++++++
++++++++++
+KyG6O<CB
+9/]++++++3
++++++++++
+++++++++
+]x.++,,,{Z
+++993/+]
+9/]]+++++
+++++/]+++
+9/]+++++
+KPYcCDb]LL
+/++++3++++++
+n][x/84152
+"(oNKs#"
+55(/3/]++++
+9/++++++++
+++++++++++
+9/++++++++++]
+/]++++++++3
+3/++++++
+"]64a-(r
++++++++++
++++++++++
++++++++++
+++++++++++
+3/]++++++
+9/++++++3
+p1p2t8	2
+532654&'.
+;K*)-oEOe
+++++++++++
+9++10]q!#
+++++++++++
+3/]310]q!#
++++++++++
+++++++++++
++++++++++++
+"]64a-(r
+++++++++++
+3/+++++++
+9/++++++++
+22?3310)
+9/]++++++
++++++++++
++++++++++
+/]33//]]
+++++++++++
+9/]++++++
+++++++++++
+Vh+.4%)-
+++++++++
++++++++++
+j2j'*21*)t0
+(4=0$%[#f
++++++++++
+9++10++]q!#
++++++++++
+3/]310++]q!#
+++++++++
+VSOY$(Y2
+++++++++++
+++++++++
+++++++++++
++++++++++
++++++++++
+9/]+++++3
+9$68I$F8
+++++++++
+9/++++++++
+	/]+++++++++
++++++++++
+22?3310)
+9/++++++++++
+++++++++
+7	/+]33/]/+
+3267!5!.
++++++++++
+9/]++++++
+++++++++++
++++++++++22
+10++++]%
+U55(/3/+++]
+9/+++++++++
++++++++++
+9/+++++++++
++++++++++22
+++++++++++
++++++++++
+VmpokoVoVo
+noodR<[[c<Ud2
+9:@%:bH(9_|D
+D|_9(Hb:%@:9
+,DV12J=49B,
+]twvrv]v]v
+rqq=uvvkY<bbj<\kk
+,DV12J=49B,
+wI!;N--N;!
+,DV12J=49B,
+++++++++++
+++++++++
+3/]+++++
+]]]]]]]10]]]]]]
+&'&'&'&+
+]]]]]]]]]]
+]10]]]]]]]]
+676767676;
+OSw;*5/.8d
+]10]]]]]
+VSR/)"Cp
+9]]]]10]]]]]]]]]]]]!#
+6767676;
+OSw;*5/.8d
+qq_q]]_]]]_qqqqq
+910]]]]]]]]]!#
+VSR/)"Cp
+':11R;!Dq
+rF}nN^1J,
+??:33("?
+FQ6Xs==tZ6
+]]]]]]]	
+]]]]]]]]	
+]]]]]]]]]
+10]]]]]]]]]]
+0M_//YF+
+$?Udm77pg[C&
+]@1A<2-++
+$Zac.0dd`,#B4 l
+0l2_f'JiB;lR1
+#!5!2654.
+K!:N.:pX7
+-PmA>hL*
+`*]YP<$]
+9^|C2D2)-:Vx
+L&>M'6O<.)'0=*2a
++QrHHqO*
+"KMI 0S>#I
+I#=R/:t\9R
+bexxe2R9
+>4!)NsJ:eK,
+(;a|AA}b;;`}BB}`;
+\O|V--V}OX|N$+Sz
+5[zE)QJ@0
+2(2F6,/8&
+.VyK4\D'%@U1
+(B??$Q}T+
+2^M%RTR$
+(B??$Q}T+
+Sht7;wpe*
++BP%0V@%
+r@{^:L`4
+7X=!'NwP
+,OnBBoP-
+h2YTS,4T< 
+2^M%RTR$
+(Hb9'Y\[((Q|TFlI&
+Y3U!	-P+7g_T%
+ A`@*]]W$K
+2^M%RTR$
+2^M%RTR$
+F7YrwrY7,Le9
+O6YqwqY6'4
+8rqstuwy>B`?
+{ri_U%+&
+&r}}d>(3
+7w{yqd'+*
+ 9K,5wzxl[
+p$7@7$K~
++H]2<bD%
+1QJLXkFQ
+7N/%KLM'(C
+8P25RD<?G-
+6^F(%Fe@#QUS$
+2^M%RTR$
+#?Y7(TQM"@
+4?=!!(5> 
+o6ofYB&Ax
+2^M%RTR$
+#535#5354&#"
+9910]]]]]]]
+32654&#52654&#"
+?<3/]<10
+?<3/]<10
+/]<3/]<10
+#"&54632
+v%y+v1yCvI
+#"&54632
+#"&54632
+#"&54632
+YdfXXfdY
+YdfXXfdY
+YdfXXfdY
+]++++++	
+]]]9910	
+/]55/]55
+\xrc]xqc
+32654&#"
+#"&54675.
+X*:8vPQm
+#"&5463 
+]]]]]]]]]]]])
+&'&547632
+]_]]]]]]]
+]]]]]]]]
+]_]]]]]]]]]]]]
+/]++++++++33
+3/]3/9/]
+9//3/]3/33
+7#535#5354
+]_]_]_]]_]_]]
+7??C>;O5
++/]++++++
+++23/]++9
+32654&'.
+G-5aEfyCU*b7~n
+[Yr;V.d.r
+++++++++++2
+<_]_]_]_]10_]%
+TR!aPR`RpR
+R./(653.//N,83
+910]]]]]]]]]]]]
+'-IJ1-/2GF.)
+<D)F@<(RLX
+cL:BA;LI=BC<
+22]_]]]]22
+2]222]]10
+]]]]]]]%
+9]]]]]10
+! '&547#53676767!5!654'&#"
+C@#-jG>p>I__[P!,,
+]2">W6/C
+;Wc)9cH),FV+
+'LpHItQ,
+3/?++]++10
+#"&54632
+#"&54632
+YdfXXfdY
+Di7q9\kO
++++++++++
+9/+++++++++
+#"&54632
+XegWWgeX
+3 54'&'&'$547632
+	+	;	D	[	
+9///]3/10
+/)#&,;4D
+i#l$d,d-
+++10]KSX@
+++10]KSX@
+iIfgHHgf
+LgHIffIHg
+#"&54632
+7O<-4c98IY
+cEfTJ))LTb
+/3/3?33?
+#5354632
+++++++++++22
++++++++++
+#5354632
+++++++++++22
++++++++++
+33//10]!#
+#5354632
+#5354632
+#5354632
+2^M%RTR$
+2^M%RTR$
+2^M%RTR$
+2^M%RTR$
+2^M%RTR$
+2^M%RTR$
+2^M%RTR$
+2^M%RTR$
+h2YTS,4T< 
+W`{3/&y4
+6X[EX*$F
+32654&'3
+Eh%gmRFJ< 
+l	l"~	~"
+532654&#"
+BBBn/0&!
+/]qr^qr^q^
+/]^q^]q^
+99/+q/]q
+K]ZM...M#
+W0XY/a+8
+/]qr^]qr^]q^
+TjgW.((.
+&'&5476753
+#&L?\yPA
+_^]10]++
+#5354632
+532654&#"
+32654&#"
+32654&#"
+9/39/310	
+/33/]310%
+'7&547'7
+qnQSloPQn
+#5!5!5!5!5
+!567#536=
+#5354632
+#73&547#73
+532654&#"
+32654&#"
+32654&#"
+9/39/310	
+#5354632
+/33/310%
+'7&547'7
+}rUYnsTUr
+#5!5!5!5!5
+!567#5375'#5354632
+99//]]]]]
+#67673'&7#676736$32
+9/3310!#
+9/3310!#
+9/3310!#
+haH<R&%A}_
+tYWvvWVw
+KJ7;IL86K
+9/339/10%
+9/39/103
+9/399//10
+#"&547#53
+3/3/9/10
+3/9/310)
+3254' '53
+haH<R&%A}_
+"tYWvvWVw
+99//310)
+#5&$54$753
+#'2654&+
+3 54!#53 54&#"
+9/39/310)
+9/3310!#
+3/39/310)
+#'2654&+
+#'2654&+
+#'2654&+
+9/9310!53 54&+
+#'2654&+
+#'2654&+
+/7CC&77R
+3107326?
+"'@"TP :>
+9223107326?
+3107326?
+r^O%,#RC/
+/?T%,(gy
+mTM'9!TI/
+3107326?
+675$5463!
+3107326?
+3Qg &!Im
+675&5463!
+]eRJ6?%DpcSG:A"E
+9/33/310
+9/33/310!
+GeRJ6?%DpcSG:A"E
+ 2016 Microsoft Corporation. All Rights Reserved.
+Microsoft:Verdana Regular
+Version 5.33
+Verdana is a trademark of the Microsoft group of companies.
+Microsoft Corporation
+Matthew Carter
+Microsoft supplied font. You may use this font to create, display, and print content as permitted by the license terms or terms of use, of the Microsoft product, service, or content in which this font was included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. Any other use is prohibited.
+http://www.microsoft.com/typography/fonts/
+Ccircumflex
+ccircumflex
+Cdotaccent
+cdotaccent
+Edotaccent
+edotaccent
+Gcircumflex
+gcircumflex
+Gdotaccent
+gdotaccent
+Hcircumflex
+hcircumflex
+Jcircumflex
+jcircumflex
+kgreenlandic
+napostrophe
+Ohungarumlaut
+ohungarumlaut
+Scircumflex
+scircumflex
+Uhungarumlaut
+uhungarumlaut
+Wcircumflex
+wcircumflex
+Ycircumflex
+ycircumflex
+Zdotaccent
+zdotaccent
+Aringacute
+aringacute
+Oslashacute
+oslashacute
+uni02C9	gravecomb	acutecomb
+uni0302	tildecomb
+hookabovecomb
+dotbelowcomb
+dieresistonos
+Alphatonos	anoteleia
+Epsilontonos
+Etatonos	Iotatonos
+Omicrontonos
+Upsilontonos
+Omegatonos
+iotadieresistonos
+Iotadieresis
+Upsilondieresis
+alphatonos
+epsilontonos
+etatonos	iotatonos
+upsilondieresistonos
+iotadieresis
+upsilondieresis
+omicrontonos
+upsilontonos
+omegatonos
+wacute	Wdieresis	wdieresis
+figuredash
+underscoredbl
+quotereversed
+uni2034	exclamdbl
+colonmonetary
+uni2120	estimated	oneeighth
+threeeighths
+fiveeighths
+seveneighths
+equivalence
+SF100000
+SF110000
+SF010000
+SF030000
+SF020000
+SF040000
+openbullet
+musicalnote
+glyph155
+glyph411
+glyph412
+glyph571
+glyph572
+glyph573
+glyph578
+glyph579
+glyph580
+glyph581
+glyph590
+glyph591
+glyph592
+glyph593
+glyph594
+glyph595
+glyph596
+glyph597
+glyph598
+glyph599
+glyph600
+glyph601
+glyph602
+glyph603
+glyph604
+glyph675
+glyph676
+glyph695
+glyph696
+glyph697
+glyph698
+glyph699
+glyph700
+glyph701
+glyph702
+glyph703
+glyph704
+glyph705
+glyph706
+glyph707
+glyph708
+glyph709
+glyph710
+glyph711
+glyph712
+glyph713
+glyph714
+glyph715
+glyph716
+glyph717
+glyph718
+glyph719
+glyph720
+glyph721
+glyph722
+glyph723
+glyph724
+glyph725
+glyph726
+glyph727
+glyph728
+glyph729
+glyph730
+glyph731
+glyph732
+glyph733
+glyph734
+glyph735
+glyph736
+glyph737
+glyph738
+glyph739
+glyph740
+glyph741
+glyph742
+glyph743
+glyph744
+glyph745
+glyph746
+glyph747
+glyph748
+glyph749
+glyph750
+glyph751
+glyph752
+glyph753
+glyph754
+glyph755
+glyph756
+glyph757
+glyph758
+glyph759
+glyph760
+glyph761
+glyph762
+glyph763
+glyph764
+glyph765
+glyph766
+glyph767
+glyph768
+glyph769
+glyph770
+glyph771
+glyph772
+glyph773
+glyph774
+glyph775
+glyph776
+glyph777
+glyph778
+glyph779
+glyph780
+glyph781
+glyph782
+glyph783
+glyph784
+glyph785
+glyph786
+glyph787
+glyph788
+glyph789
+glyph790
+glyph791
+glyph792
+glyph793
+glyph794
+glyph795
+glyph796
+glyph797
+glyph798
+glyph799
+glyph800
+glyph801
+glyph802
+glyph803
+glyph804
+glyph805
+glyph806
+glyph807
+glyph808
+glyph809
+glyph810
+glyph811
+glyph812
+glyph813
+glyph814
+glyph815
+glyph816
+glyph817
+glyph818
+glyph819
+glyph820
+glyph821
+glyph822
+glyph823
+glyph824
+glyph825
+glyph826
+glyph827
+glyph828
+glyph829
+glyph830
+glyph831
+glyph832
+glyph833
+glyph834
+glyph835
+glyph836
+glyph837
+glyph838
+glyph839
+glyph840
+glyph841
+glyph842
+glyph843
+glyph882
+glyph883
+iacute.locl
+glyph910
+glyph946
+glyph947
+f_j.dlig	zero.pnum
+one.pnum
+two.pnum
+three.pnum	four.pnum	five.pnum
+six.pnum
+seven.pnum
+eight.pnum	nine.pnum
+dollar.pnum	cent.pnum
+sterling.pnum
+currency.pnum
+yen.pnum
+franc.pnum	lira.pnum	Euro.pnum
+florin.pnum
+zero.oldstyle
+one.oldstyle
+two.oldstyle
+three.oldstyle
+four.oldstyle
+five.oldstyle
+six.oldstyle
+seven.oldstyle
+eight.oldstyle
+nine.oldstyle
+dollar.oldstyle
+cent.oldstyle
+sterling.oldstyle
+currency.oldstyle
+yen.oldstyle
+franc.oldstyle
+lira.oldstyle
+Euro.oldstyle
+florin.oldstyle
+z.sc	aacute.sc	abreve.sc
+acircumflex.sc
+adieresis.sc	agrave.sc
+amacron.sc
+aogonek.sc
+aring.sc
+aringacute.sc	atilde.sc
+aeacute.sc	cacute.sc	ccaron.sc
+ccedilla.sc
+ccircumflex.sc
+cdotaccent.sc	dcaron.sc	dcroat.sc	eacute.sc	ebreve.sc	ecaron.sc
+ecircumflex.sc
+edieresis.sc
+edotaccent.sc	egrave.sc
+emacron.sc
+eogonek.sc
+eth.sc	gbreve.sc
+gcircumflex.sc
+uni0123.sc
+gdotaccent.sc
+hcircumflex.sc	iacute.sc	ibreve.sc
+icircumflex.sc
+idieresis.sc	glyph1085	igrave.sc
+imacron.sc
+iogonek.sc	itilde.sc
+jcircumflex.sc
+uni0137.sc	lacute.sc	lcaron.sc
+uni013C.sc
+ldot.sc	lslash.sc	nacute.sc	ncaron.sc
+uni0146.sc	ntilde.sc	oacute.sc	obreve.sc
+ocircumflex.sc
+odieresis.sc	ograve.sc
+ohungarumlaut.sc
+omacron.sc	oslash.sc
+oslashacute.sc	otilde.sc
+thorn.sc	racute.sc	rcaron.sc
+uni0157.sc	sacute.sc	scaron.sc
+scedilla.sc
+scircumflex.sc
+uni0219.sc
+tbar.sc	tcaron.sc
+uni0163.sc
+uni021B.sc	uacute.sc	ubreve.sc
+ucircumflex.sc
+udieresis.sc	ugrave.sc
+uhungarumlaut.sc
+umacron.sc
+uogonek.sc
+uring.sc	utilde.sc	wacute.sc
+wcircumflex.sc
+wdieresis.sc	wgrave.sc	yacute.sc
+ycircumflex.sc
+ydieresis.sc	ygrave.sc	zacute.sc	zcaron.sc
+zdotaccent.sc
+Alpha.c2sc	Beta.c2sc
+Gamma.c2sc
+uni0394.c2sc
+Epsilon.c2sc	Zeta.c2sc
+Eta.c2sc
+Theta.c2sc	Iota.c2sc
+Kappa.c2sc
+Lambda.c2sc
+Omicron.c2sc
+Rho.c2sc
+Sigma.c2sc
+Tau.c2sc
+Upsilon.c2sc
+Phi.c2sc
+Chi.c2sc
+Psi.c2sc
+uni03A9.c2sc
+Iotadieresis.c2sc
+Upsilondieresis.c2sc
+Alphatonos.c2sc
+Epsilontonos.c2sc
+Etatonos.c2sc
+Iotatonos.c2sc
+Omicrontonos.c2sc
+Upsilontonos.c2sc
+Omegatonos.c2sc
+uni0410.c2sc
+uni0411.c2sc
+uni0412.c2sc
+uni0413.c2sc
+uni0414.c2sc
+uni0415.c2sc
+uni0401.c2sc
+uni0416.c2sc
+uni0417.c2sc
+uni0418.c2sc
+uni0419.c2sc
+uni041A.c2sc
+uni041B.c2sc
+uni041C.c2sc
+uni041D.c2sc
+uni041E.c2sc
+uni041F.c2sc
+uni0420.c2sc
+uni0421.c2sc
+uni0422.c2sc
+uni0423.c2sc
+uni0424.c2sc
+uni0425.c2sc
+uni0426.c2sc
+uni0427.c2sc
+uni0428.c2sc
+uni0429.c2sc
+uni042A.c2sc
+uni042B.c2sc
+uni042C.c2sc
+uni042D.c2sc
+uni042E.c2sc
+uni042F.c2sc
+uni0402.c2sc
+uni0403.c2sc
+uni0404.c2sc
+uni0405.c2sc
+uni0406.c2sc
+uni0407.c2sc
+uni0408.c2sc
+uni0409.c2sc
+uni040A.c2sc
+uni040B.c2sc
+uni040C.c2sc
+uni040E.c2sc
+uni040F.c2sc
+uni0490.c2sc	glyph1227	glyph1228	glyph1229	glyph1230
+uni0416.salt
+uni041A.salt
+uni042F.salt
+uni040C.salt
+uni0436.salt
+uni043A.salt
+uni044F.salt
+uni045C.salt
+uni0416.c2sc.salt
+uni041A.c2sc.salt
+uni042F.c2sc.salt
+uni040C.c2sc.salt
+Igrave.salt
+Iacute.salt
+Icircumflex.salt
+Idieresis.salt
+Itilde.salt
+Imacron.salt
+Ibreve.salt
+Iogonek.salt
+Idotaccent.salt
+Iotatonos.salt	Iota.salt
+Iotadieresis.salt
+uni0406.salt
+uni0407.salt	i.sc.ss01
+iacute.sc.ss01
+ibreve.sc.ss01
+icircumflex.sc.ss01
+idieresis.sc.ss01	glyph1264
+igrave.sc.ss01
+ij.sc.ss01
+imacron.sc.ss01
+iogonek.sc.ss01
+itilde.sc.ss01
+Iota.c2sc.salt
+Iotadieresis.c2sc.salt
+Iotatonos.c2sc.salt
+uni0406.c2sc.salt
+uni0407.c2sc.salt	zero.frac
+one.frac
+two.frac
+three.frac	four.frac	five.frac
+six.frac
+seven.frac
+eight.frac	nine.frac	zero.dnom
+one.dnom
+two.dnom
+three.dnom	four.dnom	five.dnom
+six.dnom
+seven.dnom
+eight.dnom	nine.dnom	glyph1295	glyph1296	glyph1394
+"d"j"j"j"j"j"j
+#b#b#b#b#b
+#p#p#p#p#~&
+#p#p#p#p#p+('
+FzG@GRH\H
+FzFzG@G@G@G@G@G@G@G@G@FzH\H\H\H\H
+OBOBOBPxPxPxPxPxPxPxPxPxPxQ
+SXSXSXSXT
+GCC: (GNU) 4.9.x 20150123 (prerelease)
+clang version 7.0.0 
+Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)
+Android (4691093 based on r316199) clang version 6.0.2 (https://android.googlesource.com/toolchain/clang 183abd29fc496f55536e7d904e0abae47888fc7f) (https://android.googlesource.com/toolchain/llvm 34361f192e41ed6e4e8f9aca80a4ea7e9856f327) (based on LLVM 6.0.2svn)
+.shstrtab
+.note.gnu.build-id
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.eh_frame_hdr
+.eh_frame
+.gcc_except_table
+.note.android.ident
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.comment

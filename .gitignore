@@ -1,0 +1,15 @@
+build/
+.cache/
+.idea/
+.vscode/
+*.o
+*.so
+*.a
+
+# Keep the original binary checked in for traceability.
+!reverse_engineering/*.so
+*.iml
+.cxx/
+.gradle/
+local.properties
+ghidra_proj/

@@ -1,0 +1,9 @@
+[submodule "imgui"]
+	path = third_party/imgui
+	url = https://github.com/ocornut/imgui.git
+	# pinned to commit 2b24f5fa71d124de108da54d9da49ea3049dc91e (tag v1.92.2)
+
+[submodule "third_party/Dobby"]
+	path = third_party/Dobby
+	url = https://github.com/jmpews/Dobby.git
+	# pinned to commit 5dfc8546954ce3b3198132ab13fddb89ee92cdd7
