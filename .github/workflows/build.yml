@@ -1,0 +1,115 @@
+# SPDX-License-Identifier: ISC
+#
+# GitHub Actions workflow that builds the reconstructed Zygisk overlay module
+# (libarm64-v8a.so) on every push to a `devin/**` branch — explicitly NOT on
+# pushes to main.
+#
+# Output artifact: `libarm64-v8a` containing the built shared library, plus a
+# packaged Magisk/Zygisk module zip.
+
+name: build
+
+on:
+  push:
+    branches:
+      - "devin/**"
+  pull_request:
+    branches:
+      - "devin/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-arm64-v8a:
+    name: Build arm64-v8a (Android NDK)
+    runs-on: ubuntu-latest
+
+    env:
+      ANDROID_ABI: arm64-v8a
+      ANDROID_PLATFORM: android-26
+      BUILD_TYPE: Release
+      OVERLAY_TARGET_PACKAGE: com.embress.slclassic
+
+    steps:
+      - name: Checkout (with submodules)
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 1
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Set up Android NDK
+        id: setup-ndk
+        uses: nttld/setup-ndk@v1
+        with:
+          ndk-version: r26d
+          add-to-path: false
+
+      - name: Show toolchain info
+        run: |
+          echo "NDK at: ${{ steps.setup-ndk.outputs.ndk-path }}"
+          ls "${{ steps.setup-ndk.outputs.ndk-path }}"
+          cmake --version
+          ninja --version || sudo apt-get install -y ninja-build
+
+      - name: Configure CMake
+        env:
+          ANDROID_NDK_HOME: ${{ steps.setup-ndk.outputs.ndk-path }}
+        run: |
+          cmake -B build -S . -G Ninja \
+            -DCMAKE_TOOLCHAIN_FILE="${ANDROID_NDK_HOME}/build/cmake/android.toolchain.cmake" \
+            -DANDROID_ABI="${ANDROID_ABI}" \
+            -DANDROID_PLATFORM="${ANDROID_PLATFORM}" \
+            -DCMAKE_BUILD_TYPE="${BUILD_TYPE}" \
+            -DOVERLAY_TARGET_PACKAGE="${OVERLAY_TARGET_PACKAGE}"
+
+      - name: Build
+        run: cmake --build build -j
+
+      - name: Show output binary
+        run: |
+          ls -lh build/
+          file build/libarm64-v8a.so || true
+          # NEEDED libs sanity-check
+          ${{ steps.setup-ndk.outputs.ndk-path }}/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-readelf \
+            -dW build/libarm64-v8a.so | grep NEEDED || true
+
+      - name: Package as Magisk/Zygisk module
+        run: |
+          mkdir -p out/module/zygisk
+          cp build/libarm64-v8a.so out/module/zygisk/arm64-v8a.so
+          cat > out/module/module.prop <<EOF
+          id=zygisk_overlay
+          name=Zygisk Overlay (reconstructed)
+          version=v0.1.0-${GITHUB_SHA::7}
+          versionCode=1
+          author=reconstructed
+          description=Reconstructed Zygisk overlay module for ${OVERLAY_TARGET_PACKAGE}
+          EOF
+          (cd out/module && zip -r ../zygisk-overlay-${GITHUB_SHA::7}.zip .)
+          ls -lh out/
+
+      - name: Upload .so artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: libarm64-v8a-${{ github.sha }}
+          path: build/libarm64-v8a.so
+          if-no-files-found: error
+
+      - name: Upload module zip
+        uses: actions/upload-artifact@v4
+        with:
+          name: zygisk-overlay-module-${{ github.sha }}
+          path: out/zygisk-overlay-*.zip
+          if-no-files-found: error
