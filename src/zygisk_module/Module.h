@@ -19,6 +19,11 @@
 
 #pragma once
 
+// zygisk.hpp uses dev_t/ino_t in its `pltHookRegister` declaration but does
+// not pull in the headers that define them; pre-include it here so the
+// vendored upstream header can stay byte-identical.
+#include <sys/types.h>
+
 #include "../../third_party/zygisk/zygisk.hpp"
 
 namespace overlay {

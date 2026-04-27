@@ -17,7 +17,10 @@
 #include <cstring>
 #include <dlfcn.h>
 
-#include "../../third_party/Dobby/include/dobby.h"
+// Resolved by CMake to either the real Dobby submodule header
+// (third_party/Dobby/include) or the header-only stub
+// (third_party/dobby_stub). Either way the public API surface is the same.
+#include <dobby.h>
 #include "../util/Log.h"
 
 // The target Android package this module is meant to inject into.
