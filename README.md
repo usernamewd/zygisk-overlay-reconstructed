@@ -64,9 +64,6 @@ cmake --build build -j
 The default target package is `com.embress.slclassic`. Override at configure
 time with `-DOVERLAY_TARGET_PACKAGE=other.package.name` if needed.
 
-```sh
-```
-
 Output is `build/libarm64-v8a.so`. To package as a Magisk/Zygisk module:
 
 ```
