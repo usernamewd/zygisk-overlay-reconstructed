@@ -113,3 +113,49 @@ jobs:
           name: zygisk-overlay-module-${{ github.sha }}
           path: out/zygisk-overlay-*.zip
           if-no-files-found: error
+
+      # ----- Binary-patched original .so ------------------------------------
+      # Produces a patched copy of reverse_engineering/original_arm64-v8a.so
+      # with an IL2CPP-runtime wait wrapper redirecting the postAppSpecialize
+      # pthread_create start_routine. See scripts/patch_il2cpp_wait.py and
+      # docs/CRASH_FIX_NOTES.md for the rationale.
+      - name: Patch original binary (Magisk 26.4 IL2CPP timing fix)
+        run: |
+          mkdir -p out/patched
+          python3 scripts/patch_il2cpp_wait.py \
+            reverse_engineering/original_arm64-v8a.so \
+            out/patched/arm64-v8a.so
+          ls -lh out/patched/
+          ${{ steps.setup-ndk.outputs.ndk-path }}/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-readelf \
+            -lW out/patched/arm64-v8a.so | head -25
+          # Sanity: zygisk_module_entry export must still be present
+          ${{ steps.setup-ndk.outputs.ndk-path }}/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-readelf \
+            --dyn-syms out/patched/arm64-v8a.so | grep zygisk_module_entry
+
+      - name: Package patched-original as Magisk/Zygisk module
+        run: |
+          mkdir -p out/patched-module/zygisk
+          cp out/patched/arm64-v8a.so out/patched-module/zygisk/arm64-v8a.so
+          cat > out/patched-module/module.prop <<EOF
+          id=zygisk_overlay_patched
+          name=Zygisk Overlay (original, IL2CPP-wait patched)
+          version=v0.1.0-patched-${GITHUB_SHA::7}
+          versionCode=1
+          author=reconstructed
+          description=Original ${OVERLAY_TARGET_PACKAGE} overlay with IL2CPP runtime-wait wrapper for Magisk 26.4
+          EOF
+          (cd out/patched-module && zip -r ../zygisk-overlay-patched-${GITHUB_SHA::7}.zip .)
+
+      - name: Upload patched .so artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: libarm64-v8a-patched-${{ github.sha }}
+          path: out/patched/arm64-v8a.so
+          if-no-files-found: error
+
+      - name: Upload patched module zip
+        uses: actions/upload-artifact@v4
+        with:
+          name: zygisk-overlay-patched-module-${{ github.sha }}
+          path: out/zygisk-overlay-patched-*.zip
+          if-no-files-found: error

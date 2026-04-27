@@ -95,3 +95,55 @@ removes the reliance on injection-time ordering. A "modified Magisk" fork
 that backports the 30.x timing into 26.4 would also fix this, but at the
 cost of every user having to flash a custom Magisk — strictly worse
 ergonomics.
+
+## Binary-patch path for the original .so
+
+If you can't or don't want to rebuild from source (e.g. the menu/hook
+bodies in the original obfuscated binary are still your shipping copy and
+nothing in this repo replaces them), the same logical fix is also
+delivered as a **binary patch** of the original `.so`.
+`scripts/patch_il2cpp_wait.py` produces a modified copy that:
+
+1. Adds a small RX code-cave (one page, `vaddr=0x140000`,
+   `file_offset=0x120000`) by repurposing the existing `PT_GNU_STACK`
+   program-header slot into a new `PT_LOAD`. No file relayout, no section
+   header changes, no resigning of any sort needed.
+
+2. Writes an aarch64 wrapper into the cave equivalent to:
+
+   ```c
+   void* wrapper(void* arg) {
+       for (;;) {
+           void* h = dlopen("libil2cpp.so", RTLD_NOLOAD);
+           if (h) {
+               auto get = (void* (*)())dlsym(h, "il2cpp_domain_get");
+               if (get && get() != NULL)
+                   return overlay_thread_main(arg);   // tail-call, vaddr 0x54300
+           }
+           sleep(1);
+       }
+   }
+   ```
+
+   `dlopen`, `dlsym`, `sleep` are reached through the existing PLT entries
+   in the binary (`0xcaf0`, `0xc9c0`, `0xc870` respectively); no new
+   imports are added.
+
+3. Patches `OverlayModule::postAppSpecialize` at file offset `0x57440` /
+   `0x57448` so the third argument to `pthread_create` (the
+   `start_routine`) points to `wrapper` instead of the original
+   `overlay_thread_main` at `0x54300`. The two patched instructions are:
+
+   ```
+   0x57440:  adrp x2, 0x140000
+   0x57448:  add  x2, x2, #0x0
+   ```
+
+CI builds the patched `.so` and a Magisk-flashable zip on every push to
+`devin/**`; see the `libarm64-v8a-patched-*` and
+`zygisk-overlay-patched-module-*` artifacts.
+
+The wrapper adds a `dlopen`/`dlsym`/`sleep`-loop overhead **once**, on the
+spawned UI thread, before the first frame. Steady-state cost is zero —
+the original `overlay_thread_main` runs untouched after the wait
+succeeds.
