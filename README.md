@@ -57,9 +57,14 @@ cmake -B build -S . \
     -DCMAKE_TOOLCHAIN_FILE=$ANDROID_NDK/build/cmake/android.toolchain.cmake \
     -DANDROID_ABI=arm64-v8a \
     -DANDROID_PLATFORM=android-26 \
-    -DCMAKE_BUILD_TYPE=Release \
-    -DOVERLAY_TARGET_PACKAGE=com.example.targetapp
+    -DCMAKE_BUILD_TYPE=Release
 cmake --build build -j
+```
+
+The default target package is `com.embress.slclassic`. Override at configure
+time with `-DOVERLAY_TARGET_PACKAGE=other.package.name` if needed.
+
+```sh
 ```
 
 Output is `build/libarm64-v8a.so`. To package as a Magisk/Zygisk module:

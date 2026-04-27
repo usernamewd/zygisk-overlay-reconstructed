@@ -33,7 +33,8 @@ LOCAL_C_INCLUDES := \
     $(LOCAL_PATH)/third_party/Dobby/include \
     $(LOCAL_PATH)/third_party/imgui \
     $(LOCAL_PATH)/third_party/imgui/backends
-LOCAL_CPPFLAGS := -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden
+LOCAL_CPPFLAGS := -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden \
+    -DOVERLAY_TARGET_PACKAGE=\"com.embress.slclassic\"
 LOCAL_STATIC_LIBRARIES := imgui dobby
 LOCAL_LDLIBS := -llog -landroid -lEGL -lGLESv2 -lGLESv3
 LOCAL_LDFLAGS := -Wl,--gc-sections -Wl,--exclude-libs,ALL

@@ -20,8 +20,10 @@
 #include "../../third_party/Dobby/include/dobby.h"
 #include "../util/Log.h"
 
+// The target Android package this module is meant to inject into.
+// Build-time overridable via -DOVERLAY_TARGET_PACKAGE=...
 #ifndef OVERLAY_TARGET_PACKAGE
-#define OVERLAY_TARGET_PACKAGE "<set OVERLAY_TARGET_PACKAGE at build time>"
+#define OVERLAY_TARGET_PACKAGE "com.embress.slclassic"
 #endif
 
 namespace overlay::hooks {

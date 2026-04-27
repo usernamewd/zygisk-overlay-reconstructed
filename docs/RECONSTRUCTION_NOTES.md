@@ -58,7 +58,8 @@ corresponds to Ghidra address `0x10ABCD`.
   obfuscation pass having been parametrised at a build step we can't see.
   Bottom line: the **target package name string is not statically
   recoverable**. The reconstructed file accepts it through the build define
-  `OVERLAY_TARGET_PACKAGE`.
+  `OVERLAY_TARGET_PACKAGE`, which defaults to `com.embress.slclassic`
+  (provided out-of-band by the original author).
 
 * `install_native_hooks()` ↔ inferred from the Dobby usage pattern. Every
   hook site in the binary uses
@@ -105,7 +106,9 @@ corresponds to Ghidra address `0x10ABCD`.
 These items would need either runtime tracing of the running module, or full
 symbolic execution of the OLLVM-obfuscated code paths:
 
-1. **Target package name** (`OVERLAY_TARGET_PACKAGE`).
+1. ~~**Target package name**~~ — supplied out-of-band by the author:
+   `com.embress.slclassic`. Wired into the build as the default value of
+   `OVERLAY_TARGET_PACKAGE`.
 2. **Hook table** — the exact `(library, symbol-or-offset)` tuples that the
    module hooks inside the target app.
 3. **Menu contents** — what `draw_menu_contents()` actually drew.

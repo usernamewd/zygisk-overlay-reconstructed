@@ -78,9 +78,10 @@ target_link_options(arm64-v8a PRIVATE
     -Wl,--gc-sections -Wl,--exclude-libs,ALL
 )
 
-# Allow the build to override the target package + symbol list at configure
-# time without editing source.
-if(DEFINED OVERLAY_TARGET_PACKAGE)
-    target_compile_definitions(arm64-v8a PRIVATE
-        OVERLAY_TARGET_PACKAGE="${OVERLAY_TARGET_PACKAGE}")
+# Target Android package the module injects into. Override at configure time
+# via -DOVERLAY_TARGET_PACKAGE=... if needed.
+if(NOT DEFINED OVERLAY_TARGET_PACKAGE)
+    set(OVERLAY_TARGET_PACKAGE "com.embress.slclassic")
 endif()
+target_compile_definitions(arm64-v8a PRIVATE
+    OVERLAY_TARGET_PACKAGE="${OVERLAY_TARGET_PACKAGE}")
